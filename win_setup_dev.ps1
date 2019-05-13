@@ -26,3 +26,7 @@ code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
 code --install-extension ms-vscode.powershell
 code --install-extension PeterJausovec.vscode-docker
+
+#extra win features
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
