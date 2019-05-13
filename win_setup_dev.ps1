@@ -25,6 +25,7 @@ code --install-extension DotJoshJohnson.xml
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
 code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension PeterJausovec.vscode-docker
 
 #extra win features
