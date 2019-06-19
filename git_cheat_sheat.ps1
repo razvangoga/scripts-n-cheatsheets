@@ -2,6 +2,10 @@
 #make local copy of remote branch
 git branch -b {localBranchName} {remoteBranchName}
 
+#delete local and remote branch
+git branch -d {branch_name}
+git push --delete {usually_origin} {branch_name}
+
 #tags
 git push origin --tags
 
