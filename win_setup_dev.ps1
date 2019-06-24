@@ -15,6 +15,7 @@ choco install microsoftazurestorageexplorer -y
 choco install nodejs -y
 choco install poshgit -y
 choco install postman -y
+choco install ServiceBusExplorer -y
 choco install slack -y
 choco install totalcommander -y
 choco install visualstudiocode -y
