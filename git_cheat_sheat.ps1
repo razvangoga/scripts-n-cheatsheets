@@ -6,6 +6,9 @@ git branch -b {localBranchName} {remoteBranchName}
 git branch -d {branch_name}
 git push --delete {usually_origin} {branch_name}
 
+#git rename local branch
+git branch -m {new_branch_name}
+
 #tags
 git push origin --tags
 
