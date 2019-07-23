@@ -15,7 +15,20 @@ git push origin --tags
 #git flow
 #init git flow with it's default options
 git flow init -d
-#see gitflows current confgigs - can be manually seen in .git/config file - all configs for the current repo are keys there
+
+#default settings are (some newer git versions do not provision these automatically)
+[gitflow "branch"]
+    master = master
+    develop = develop
+[gitflow "prefix"]
+    feature = feature/
+    bugfix = bugfix/
+    release = release/
+    hotfix = hotfix/
+    support = support/
+    versiontag = ""
+
+#see gitflows current configs - can be manually seen in .git/config file - all configs for the current repo are keys there
 git flow config
 
 #start/finish a new git flow branch
