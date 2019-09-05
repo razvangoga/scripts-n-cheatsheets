@@ -7,6 +7,8 @@ choco install azure-data-studio -y
 choco install chromium -y
 choco install docker-desktop -y
 choco install drawio -y
+choco install firefox -y
+choco install firefox-dev -y
 choco install foxitreader -y
 choco install git -y
 choco install golang -y
