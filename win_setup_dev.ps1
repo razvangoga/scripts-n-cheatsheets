@@ -6,10 +6,11 @@ choco install azure-cli -y
 choco install azure-data-studio -y
 choco install chromium -y
 choco install docker-desktop -y
+choco install dotnetcore-sdk -y
 choco install drawio -y
 choco install foxitreader -y
 choco install git -y
-choco install golang -y
+choco install golang -y -ia "INSTALLDIR=""D:\Tools\GoLang"""
 choco install hg -y
 choco install linqpad -y
 choco install microsoftazurestorageexplorer -y
@@ -23,6 +24,9 @@ choco install microsoft-windows-terminal -y
 choco install totalcommander -y
 choco install visualstudiocode -y
 choco install winmerge -y
+
+#dotnetcore global tools
+dotnet tool install -g dotnet-depends
 
 #configure vs code
 code --install-extension DotJoshJohnson.xml
