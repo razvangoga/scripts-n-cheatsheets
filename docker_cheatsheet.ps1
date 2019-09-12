@@ -3,6 +3,8 @@ docker logs {{container_name_or_id}}
 docker exec -it {{container_name_or_id}} PowerShell 
 docker cp {{local_source_file}} {{container_name_or_id}}:{{destination_path_in_container}}
 
+docker stop $(docker ps -a -q)
+
 #windows container
 docker inspect --format "{{ .ID }} - {{ .Name }} - {{ .NetworkSettings.Networks.nat.IPAddress }}" {{container_name_or_id}}
 docker inspect {{container_name_or_id}} | ConvertFrom-Json | select -ExpandProperty SyncRoot | select -expand netWorkSettings | select -ExpandProperty Networks | Select -ExpandProperty nat | Select IPAddress 
