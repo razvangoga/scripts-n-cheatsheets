@@ -12,7 +12,7 @@ choco install firefox -y
 choco install firefox-dev -y
 choco install foxitreader -y
 choco install git -y
-choco install golang -y -ia "INSTALLDIR=""D:\Tools\GoLang"""
+choco install golang -y
 choco install hg -y
 choco install linqpad -y
 choco install microsoftazurestorageexplorer -y
