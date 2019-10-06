@@ -17,6 +17,7 @@ choco install hg -y
 choco install linqpad -y
 choco install microsoftazurestorageexplorer -y
 choco install microsoft-teams -y
+choco install microsoft-windows-terminal -y
 choco install nodejs -y
 choco install nswagstudio -y
 choco install opera -y
