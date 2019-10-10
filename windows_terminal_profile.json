@@ -53,6 +53,10 @@
         { "command": "moveFocusLeft", "keys": ["alt+left"] },
         { "command": "moveFocusRight", "keys": ["alt+right"] },
         { "command": "moveFocusUp", "keys": ["alt+up"] },
-        { "command": "moveFocusDown", "keys": ["alt+down"] }
+        { "command": "moveFocusDown", "keys": ["alt+down"] },
+        { "command": "resizePaneLeft", "keys": ["ctrl+shift+alt+left"] },
+        { "command": "resizePaneRight", "keys": ["ctrl+shift+alt+right"] },
+        { "command": "resizePaneUp", "keys": ["ctrl+shift+alt+up"] },
+        { "command": "resizePaneDown", "keys": ["ctrl+shift+alt+down"] }
     ]
 }
