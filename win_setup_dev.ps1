@@ -33,6 +33,10 @@ choco install winmerge -y
 #refresh the environment to have access to new tools
 refreshenv 
 
+#extra powershell modules
+Install-Module oh-my-posh -Scope CurrentUser
+#https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
+
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
 
