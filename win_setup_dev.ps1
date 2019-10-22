@@ -23,6 +23,7 @@ choco install nswagstudio -y
 choco install opera -y
 choco install poshgit -y
 choco install postman -y
+choco install powertoys -y
 choco install ServiceBusExplorer -y
 choco install slack -y
 choco install microsoft-windows-terminal -y
