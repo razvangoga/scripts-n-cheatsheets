@@ -5,15 +5,25 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 
     "profiles":
     [
         {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "hidden": false,
+            "name": "PowerShell Core",
+            "source": "Windows.Terminal.PowershellCore",
+            "colorScheme" : "idleToes",
+            //https://github.com/adam7/delugia-code/releases
+            "fontFace":  "Delugia Nerd Font",
+            "startingDirectory": "D:/_work"
+        },
+        {
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
             "name": "Windows PowerShell",
             "commandline": "powershell.exe",
-            "colorScheme" : "Dracula",
+            "colorScheme" : "idleToes",
             //https://github.com/adam7/delugia-code/releases
             "fontFace":  "Delugia Nerd Font",
             "hidden": false,
@@ -46,8 +56,10 @@
 
     // Add custom color schemes to this array
     "schemes": [
-        //https://github.com/dracula/windows-terminal
+        //https://github.com/mbadolato/iTerm2-Color-Schemes
+        //https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/windowsterminal
         {
+            "name" : "Dracula",
             "background" : "#282A36",
             "black" : "#21222C",
             "blue" : "#BD93F9",
@@ -62,12 +74,53 @@
             "cyan" : "#8BE9FD",
             "foreground" : "#F8F8F2",
             "green" : "#50FA7B",
-            "name" : "Dracula",
             "purple" : "#FF79C6",
             "red" : "#FF5555",
             "white" : "#F8F8F2",
             "yellow" : "#F1FA8C"
-        }
+        },
+        {
+        "name": "Galaxy",
+        "black": "#000000",
+        "red": "#f9555f",
+        "green": "#21b089",
+        "yellow": "#fef02a",
+        "blue": "#589df6",
+        "purple": "#944d95",
+        "cyan": "#1f9ee7",
+        "white": "#bbbbbb",
+        "brightBlack": "#555555",
+        "brightRed": "#fa8c8f",
+        "brightGreen": "#35bb9a",
+        "brightYellow": "#ffff55",
+        "brightBlue": "#589df6",
+        "brightPurple": "#e75699",
+        "brightCyan": "#3979bc",
+        "brightWhite": "#ffffff",
+        "background": "#1d2837",
+        "foreground": "#ffffff"
+        },
+        {
+            "name": "idleToes",
+            "black": "#323232",
+            "red": "#d25252",
+            "green": "#7fe173",
+            "yellow": "#ffc66d",
+            "blue": "#4099ff",
+            "purple": "#f680ff",
+            "cyan": "#bed6ff",
+            "white": "#eeeeec",
+            "brightBlack": "#535353",
+            "brightRed": "#f07070",
+            "brightGreen": "#9dff91",
+            "brightYellow": "#ffe48b",
+            "brightBlue": "#5eb7f7",
+            "brightPurple": "#ff9dff",
+            "brightCyan": "#dcf4ff",
+            "brightWhite": "#ffffff",
+            "background": "#323232",
+            "foreground": "#ffffff"
+          }
     ],
 
     // Add any keybinding overrides to this array.
