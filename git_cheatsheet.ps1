@@ -3,7 +3,7 @@
 git branch -b {localBranchName} {remoteBranchName}
 
 #delete local and remote branch
-git branch -d {branch_name}
+git branch -D {branch_name}
 git push --delete {usually_origin} {branch_name}
 
 #git rename local branch
