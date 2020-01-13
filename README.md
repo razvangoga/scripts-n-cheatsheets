@@ -1,2 +1,2 @@
-# scripts-n-cheetsheats
-a collection of scripts and cheatsheets I use in day to day work
+# scripts-n-cheetsheets
+a collection of scripts and cheetsheets I use in day to day work

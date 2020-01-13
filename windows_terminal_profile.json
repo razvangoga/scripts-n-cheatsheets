@@ -43,6 +43,23 @@
             "startingDirectory": "D:/_work"
         },
         {
+            "guid":  "{7d04ce37-c00f-43ac-ba47-992cb1393215}",
+            "closeOnExit":  true,
+            "colorScheme" : "idleToes",
+            "commandline":  "c://Program Files//Yori//yori.exe",
+            "cursorColor":  "#00FF00",
+            "cursorShape":  "vintage",
+            "fontFace":  "Cascadia Code PL",
+            "fontSize":  12,
+            "historySize":  9001,
+            "icon":  "ms-appdata:///roaming/cmd-32.png",
+            "name":  "Yori",
+            "padding":  "0, 0, 0, 0",
+            "snapOnInput":  true,
+            "startingDirectory": "D:/_work",
+            "tabTitle":  "Yori"
+        },     
+        {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
             "hidden": false,
             "name": "Azure Cloud Shell",
