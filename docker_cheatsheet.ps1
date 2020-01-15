@@ -14,8 +14,5 @@ docker inspect {{container_name_or_id}} | ConvertFrom-Json | select -ExpandPrope
 docker inspect --format "{{ .ID }} - {{ .Name }} - {{ .NetworkSettings.Networks.bridge.IPAddress }}" {{container_name_or_id}}
 docker inspect {{container_name_or_id}} | ConvertFrom-Json | select -ExpandProperty SyncRoot | select -expand netWorkSettings | select -ExpandProperty Networks | Select -ExpandProperty bridge | Select IPAddress
 
-#up and down create/remove the containers
-docker-compose up
-docker-compose start
-docker-compose stop
-docker-compose down
+#up and down creates/removes the containers / network / etc
+docker-compose [up|down] [start|stop]
