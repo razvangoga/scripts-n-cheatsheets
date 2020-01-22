@@ -1,0 +1,17 @@
+{
+  "name": "afsweb",
+  "version": "1.0.0",
+  "description": "Enable Gulp file watch and upload modified files (add/change/delete) to Docker container used to run the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "fancy-log": "^1.3.3"
+  }
+}

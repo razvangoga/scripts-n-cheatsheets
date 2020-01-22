@@ -1,0 +1,11 @@
+{
+    "remotePath": "/var/www/html/",
+    "containerName": "my-container-name",
+    "rootFolderToWatch": "what-folder-to-watch",
+    "extensions": [
+        "css",
+        "js",
+        "php",
+        "py"
+    ]
+}
