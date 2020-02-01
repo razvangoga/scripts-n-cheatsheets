@@ -12,10 +12,12 @@ choco install firefox -y
 choco install firefox-dev --pre -y
 choco install foxitreader -y
 choco install git -y
+choco install googlechrome -y
 choco install golang -y
 choco install hg -y
 choco install linqpad -y
 choco install microsoftazurestorageexplorer -y
+choco install microsoft-edge -y
 choco install microsoft-teams -y
 choco install microsoft-windows-terminal -y
 choco install nodejs -y
