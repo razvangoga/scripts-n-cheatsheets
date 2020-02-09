@@ -8,6 +8,7 @@ choco install chromium -y
 choco install docker-desktop -y
 choco install dotnetcore-sdk -y
 choco install drawio -y
+choco install etcher -y
 choco install firefox -y
 choco install firefox-dev --pre -y
 choco install foxitreader -y
@@ -27,6 +28,7 @@ choco install poshgit -y
 choco install postman -y
 choco install powertoys -y
 choco install powershell-core -y
+choco install rdmfree -y
 choco install ServiceBusExplorer -y
 choco install slack -y
 choco install microsoft-windows-terminal -y
