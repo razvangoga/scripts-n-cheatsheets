@@ -15,13 +15,13 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "name": "PowerShell Core",
                 "source": "Windows.Terminal.PowershellCore",
-                "colorScheme": "idleToes"
+                "colorScheme": "Dracula"
             },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
-                "colorScheme": "idleToes"
+                "colorScheme": "Dracula"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -31,12 +31,41 @@
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
+                "source": "Windows.Terminal.Azure",
+                "colorScheme": "Dracula"
             },
             {
                 "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
                 "name": "Ubuntu-18.04",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{4b9b87f1-e114-4528-a0e0-fb7d93ec9f13}",
+                "name":  "lcc k8 master",
+                "tabTitle": "lcc-k8-master",
+                "commandline": "ssh master@rpi4-1gb-1",
+                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
+            },
+            {
+                "guid": "{a65c1bab-8cef-48d1-9596-315448fdabb6}",
+                "name":  "lcc k8 worker 1",
+                "tabTitle": "lcc-k8-worker1",
+                "commandline": "ssh worker@rpi4-2gb-1",
+                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
+            },
+            {
+                "guid": "{cbe95777-ff17-4ebb-af3d-41bd9bb8c28f}",
+                "name":  "lcc k8 worker 2",
+                "tabTitle": "lcc-k8-worker 2",
+                "commandline": "ssh worker@rpi4-4gb-1",
+                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
+            },
+            {
+                "guid": "{4e00d2fb-ef0d-41d7-83a7-67562522f6e7}",
+                "name":  "city17",
+                "tabTitle": "city17",
+                "commandline": "ssh pi@city17",
+                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/city17.png"
             }
         ]
     },
