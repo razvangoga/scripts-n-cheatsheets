@@ -16,7 +16,7 @@ choco install foxitreader -y
 choco install git -y
 choco install googlechrome -y
 choco install golang -y
-choco install hg -y
+choco install jetbrainstoolbox -y
 choco install linqpad -y
 choco install microsoftazurestorageexplorer -y
 choco install microsoft-edge -y
@@ -32,7 +32,7 @@ choco install powershell-core -y
 choco install rdmfree -y
 choco install ServiceBusExplorer -y
 choco install slack -y
-choco install microsoft-windows-terminal -y
+choco install sqlyog -y
 choco install totalcommander -y
 choco install visualstudiocode -y
 choco install winmerge -y
@@ -41,7 +41,7 @@ choco install winmerge -y
 refreshenv 
 
 #extra powershell modules
-Install-Module oh-my-posh -Scope CurrentUser
+#Install-Module oh-my-posh -Scope CurrentUser
 #https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
 
 #dotnetcore global tools
