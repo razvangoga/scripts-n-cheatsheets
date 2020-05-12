@@ -50,6 +50,7 @@ dotnet tool install -g dotnet-depends
 #configure vs code
 code --install-extension DotJoshJohnson.xml
 code --install-extension humao.rest-client
+code --install-extension hediet.vscode-drawio
 code --install-extension johnpapa.vscode-peacock
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
