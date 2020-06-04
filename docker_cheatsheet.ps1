@@ -16,3 +16,7 @@ docker inspect {{container_name_or_id}} | ConvertFrom-Json | select -ExpandPrope
 
 #up and down creates/removes the containers / network / etc
 docker-compose [up|down] [start|stop]
+
+
+#building containers
+docker build . -t {{image_name}}

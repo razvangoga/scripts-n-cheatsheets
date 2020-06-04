@@ -32,6 +32,7 @@ choco install powershell-core -y
 choco install rdmfree -y
 choco install ServiceBusExplorer -y
 choco install slack -y
+choco install skype -y
 choco install sqlyog -y
 choco install totalcommander -y
 choco install visualstudiocode -y
