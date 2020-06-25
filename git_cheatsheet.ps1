@@ -1,6 +1,6 @@
 #vanilla git
 #make local copy of remote branch
-git branch -b {localBranchName} {remoteBranchName}
+git checkout -b {localBranchName} {remoteBranchName}
 
 #delete local and remote branch
 git branch -D {branch_name}
