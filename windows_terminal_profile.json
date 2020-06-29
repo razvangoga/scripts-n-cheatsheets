@@ -73,6 +73,7 @@
     "schemes": [
         //https://github.com/mbadolato/iTerm2-Color-Schemes
         //https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/windowsterminal
+        //https://terminalsplash.com
         {
             "name": "Dracula",
             "background": "#282A36",
