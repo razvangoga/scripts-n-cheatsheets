@@ -20,3 +20,16 @@ docker-compose [up|down] [start|stop]
 
 #building containers
 docker build . -t {{image_name}}
+
+#--------------------------------------------------------------------------------------------
+#aks
+
+az aks get-credentials --resource-group {{rg-name}} --name {{aks-name}}
+
+#--------------------------------------------------------------------------------------------
+#kubernetes
+
+kubectl get {{object_type}} | all
+
+kubectl describe {{object}}
+kubectl logs {{pod_name}}

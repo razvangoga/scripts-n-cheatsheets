@@ -67,7 +67,14 @@
                 "tabTitle": "city17",
                 "commandline": "ssh pi@city17",
                 "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/city17.png"
-            }
+            },
+            {
+                "guid": "{4e00d2fb-ef0d-41d7-83a7-67562522f6e7}",
+                "name": "watchtower",
+                "tabTitle": "watchtower",
+                "commandline": "ssh pi@watchtower",
+                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
+            }            
         ]
     },
     // Add custom color schemes to this array
