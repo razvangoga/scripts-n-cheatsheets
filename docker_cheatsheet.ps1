@@ -28,8 +28,9 @@ az aks get-credentials --resource-group {{rg-name}} --name {{aks-name}}
 
 #--------------------------------------------------------------------------------------------
 #kubernetes
+kubectl config set-context --current --namespace={{namespace}}
 
-kubectl get {{object_type}} | all
+kubectl get [{{object_type}} | all] --all-namespaces
 
 kubectl describe {{object}}
 kubectl logs {{pod_name}}

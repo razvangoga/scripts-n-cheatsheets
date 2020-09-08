@@ -32,4 +32,4 @@ git flow init -d
 git flow config
 
 #start/finish a new git flow branch
-git flow [start|finish] [feature|bugfix|hotfix|release|support]  {branchName}
+git flow [start|finish] [feature|bugfix|hotfix|release|support]  {branchName} --squash
