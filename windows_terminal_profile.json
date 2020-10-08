@@ -37,28 +37,14 @@
             },
             {
                 "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "name": "Ubuntu-18.04",
+                "name": "WSL 2 - Ubuntu-18.04",
                 "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{4b9b87f1-e114-4528-a0e0-fb7d93ec9f13}",
-                "name": "lcc k8 master",
-                "tabTitle": "lcc-k8-master 1gb",
-                "commandline": "ssh master@rpi4-1gb-1",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
-            },
-            {
-                "guid": "{a65c1bab-8cef-48d1-9596-315448fdabb6}",
-                "name": "lcc k8 worker 1",
-                "tabTitle": "lcc-k8-worker1 2gb",
-                "commandline": "ssh worker@rpi4-2gb-1",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
-            },
-            {
-                "guid": "{cbe95777-ff17-4ebb-af3d-41bd9bb8c28f}",
-                "name": "lcc k8 worker 2",
-                "tabTitle": "lcc-k8-worker 2 4gb",
-                "commandline": "ssh worker@rpi4-4gb-1",
+                "name": "lcc k8s master",
+                "tabTitle": "lcc-k8-master 2gb",
+                "commandline": "ssh ubuntu@lcc-k8s-master",
                 "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
             },
             {
@@ -156,23 +142,10 @@
     // To unbind a default keybinding, set the command to "unbound"
     // https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md#keybindings
     "keybindings": [
-        {
-            "command": "closeWindow",
-            "keys": [
-                "alt+f4"
-            ]
-        },
-        {
-            "command": "closePane",
-            "keys": [
-                "ctrl+alt+f4"
-            ]
-        },
-        {
-            "command": "splitVertical",
-            "keys": [
-                "shift+alt+<"
-            ]
-        }
+        { "command": "closeWindow", "keys": "alt+f4" },
+        { "command": "closePane", "keys": "ctrl+alt+f4" },
+        { "command": { "action": "splitPane", "split": "vertical" }, "keys": "alt+shift+<" },
+        { "command": { "action": "splitPane", "split": "horizontal" }, "keys": "alt+shift+-" },
+        { "command": { "action": "splitPane", "split": "auto" }, "keys": "alt+shift+d" }
     ]
 }
