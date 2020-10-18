@@ -11,3 +11,6 @@ choco pin
 choco pin list
 choco pin add --name=git --version=1.2.3
 choco pin remove --name git
+
+#wsl update
+wsl -d "Ubuntu-18.04" -u root -e apt update && wsl -d "Ubuntu-18.04" -u root -e apt upgrade -y

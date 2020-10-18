@@ -43,7 +43,7 @@
             {
                 "guid": "{4b9b87f1-e114-4528-a0e0-fb7d93ec9f13}",
                 "name": "lcc k8s master",
-                "tabTitle": "lcc-k8-master 2gb",
+                "tabTitle": "lcc-k8-master",
                 "commandline": "ssh ubuntu@lcc-k8s-master",
                 "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
             },
