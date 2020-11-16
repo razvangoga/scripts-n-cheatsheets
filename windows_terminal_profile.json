@@ -17,29 +17,17 @@
                 "colorScheme": "Dracula"
             },
             {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "name": "WSL 2 - Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
+            },            
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
                 "colorScheme": "idleToes",
                 "acrylicOpacity": 1
-            },            
-            {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe",
-                "colorScheme": "Dracula"
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "cmd",
-                "commandline": "cmd.exe",
-                "colorScheme": "Dracula"
-            },
-            {
-                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "name": "WSL 2 - Ubuntu-18.04",
-                "source": "Windows.Terminal.Wsl"
-            },
+            },                        
             {
                 "guid": "{4b9b87f1-e114-4528-a0e0-fb7d93ec9f13}",
                 "name": "lcc k8s master",
@@ -67,7 +55,19 @@
                 "tabTitle": "retropie",
                 "commandline": "ssh pi@retropie",
                 "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/retropie.png"
-            }                        
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "colorScheme": "Dracula"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "colorScheme": "Dracula"
+            }                               
         ]
     },
     // Add custom color schemes to this array
