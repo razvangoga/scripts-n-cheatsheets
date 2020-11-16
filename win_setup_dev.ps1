@@ -35,6 +35,7 @@ choco install ServiceBusExplorer -y
 choco install slack -y
 choco install skype -y
 choco install sqlyog -y
+choco install sysinternals -y
 choco install totalcommander -y
 choco install visualstudiocode -y
 choco install winmerge -y
