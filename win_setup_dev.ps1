@@ -4,10 +4,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 #install chocolatey distributed tools
 choco install azure-cli -y
 choco install azure-data-studio -y
-choco install brave -y
 choco install chromium -y
 choco install docker-desktop -y
 choco install dotnetcore-sdk -y
+choco install dotnet-sdk -y
 choco install drawio -y
 choco install etcher -y
 choco install fiddler -y
@@ -49,6 +49,7 @@ refreshenv
 
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
+dotnet tool install -g dotnet-outdated-tool
 
 #configure vs code
 code --install-extension DotJoshJohnson.xml
