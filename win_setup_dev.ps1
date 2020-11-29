@@ -49,12 +49,15 @@ refreshenv
 
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
+dotnet tool install -g dotnet-ef
 dotnet tool install -g dotnet-outdated-tool
 
 #configure vs code
 code --install-extension DotJoshJohnson.xml
-code --install-extension humao.rest-client
+code --install-extension eamodio.gitlens
+code --install-extension heaths.vscode-guid
 code --install-extension hediet.vscode-drawio
+code --install-extension humao.rest-client
 code --install-extension johnpapa.vscode-peacock
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
@@ -64,16 +67,16 @@ code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 
 #extra win features
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
+
+#wsl 2
+#https://docs.microsoft.com/en-us/windows/wsl/install-win10
+#Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
+Copy-Item .wslconfig "$env:USERPROFILE\.wslconfig"
 
 #wsl distros
 #https://docs.microsoft.com/en-us/windows/wsl/install-manual
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile ubuntu.appx -UseBasicParsing
+Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile ubuntu.appx -UseBasicParsing
 Add-AppxPackage .\ubuntu.appx
-
-Invoke-WebRequest -Uri https://aka.ms/wsl-kali-linux -OutFile kali.appx -UseBasicParsing
-Add-AppxPackage .\kali.appx
-
-Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile debian.appx -UseBasicParsing
-Add-AppxPackage .\debian.appx
