@@ -4,7 +4,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install 7zip -y
 choco install brave -y
 choco install boxstarter -y
+choco install garmin-express -y
 choco install hwinfo -y
+choco install intel-xtu -y
 choco install logitech-options -y
 choco install microsoft-edge -y
 choco install microsoft-windows-terminal -y
