@@ -14,6 +14,7 @@ choco install fiddler -y
 choco install firefox -y
 choco install firefox-dev --pre -y
 choco install git -y
+choco install gitkraken -y
 choco install golang -y
 choco install jetbrainstoolbox -y
 choco install lens -y

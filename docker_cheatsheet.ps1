@@ -21,6 +21,11 @@ docker-compose [up|down] [start|stop]
 #building containers
 docker build . -t {{image_name}}
 
+#updating images
+docker commit {{container_name_or_id}} {{container_repository_name}}/{{image_name}}:{{initial_tag}}
+docker tag {{container_repository_name}}/{{image_name}}:{{some_other_tag}}
+docker push
+
 #--------------------------------------------------------------------------------------------
 #aks
 
