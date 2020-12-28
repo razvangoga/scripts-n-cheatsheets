@@ -12,6 +12,12 @@ git branch -m {new_branch_name}
 #tags
 git push origin --tags
 
+#github fork update
+git remote add upstream {{githup_original_repo_url}}
+git fetch upstream
+git merge upstream/{{branch_name}}
+git push
+
 #git flow
 #init git flow with it's default options
 git flow init -d
