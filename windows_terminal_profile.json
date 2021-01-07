@@ -6,7 +6,7 @@
     "profiles": {
         "defaults": {
             "fontFace": "Cascadia Code PL",
-            "fontSize": 10,
+            "fontSize": 11,
             "startingDirectory": "D:/_work"
         },
         "list": [
@@ -33,28 +33,28 @@
                 "name": "lcc k8s master",
                 "tabTitle": "lcc-k8-master",
                 "commandline": "ssh ubuntu@lcc-k8s-master",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/lambda-core.png"
             },
             {
                 "guid": "{4e00d2fb-ef0d-41d7-83a7-67562522f6e7}",
                 "name": "city17",
                 "tabTitle": "city17",
                 "commandline": "ssh pi@city17",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/city17.png"
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/city17.png"
             },
             {
                 "guid": "{9220161d-e73e-44b4-b634-4359a0cccf7c}",
                 "name": "watchtower",
                 "tabTitle": "watchtower",
                 "commandline": "ssh pi@watchtower",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
             },
             {
                 "guid": "{72bdbea5-a7d8-4f7a-abb6-302ce39af00f}",
                 "name": "retropie",
                 "tabTitle": "retropie",
                 "commandline": "ssh pi@retropie",
-                "icon": "D:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/retropie.png"
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/retropie.png"
             },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",

@@ -2,6 +2,14 @@
 #Install-Module oh-my-posh -Scope CurrentUser
 #https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
 
+#set powershell profile
+#pscore
+New-Item -ItemType file "$home\Documents\PowerShell\profile.ps1" -Force
+Copy-Item profile.ps1 "$home\Documents\PowerShell\profile.ps1"
+#ps
+New-Item -ItemType file "$home\Documents\WindowsPowerShell\profile.ps1" -Force
+Copy-Item profile.ps1 "$home\Documents\WindowsPowerShell\profile.ps1"
+
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
@@ -26,12 +34,15 @@ Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
 
 #wsl 2
 #https://docs.microsoft.com/en-us/windows/wsl/install-win10
-#Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+Invoke-WebRequest -Uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -OutFile wsl_update_x64.msi
+& .\wsl_update_x64.msi
+
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-wsl --set-default-version 2
 Copy-Item .wslconfig "$env:USERPROFILE\.wslconfig"
 
-#wsl distros
-#https://docs.microsoft.com/en-us/windows/wsl/install-manual
-Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile ubuntu.appx -UseBasicParsing
-Add-AppxPackage .\ubuntu.appx
+wsl --set-default-version 2
+
+#install wsl 2 distros
+Start-Process https://www.microsoft.com/store/productId/9NBLGGH4MSV6

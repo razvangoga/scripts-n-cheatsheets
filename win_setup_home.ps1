@@ -17,6 +17,7 @@ choco install passwordsafe -y
 choco install samsung-magician -y
 choco install vlc -y
 choco install whatsapp -y
+choco install winscp -y
 
 #refresh the environment to have access to new tools
 refreshenv 
