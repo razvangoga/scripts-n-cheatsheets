@@ -46,7 +46,7 @@
                 "guid": "{9220161d-e73e-44b4-b634-4359a0cccf7c}",
                 "name": "watchtower",
                 "tabTitle": "watchtower",
-                "commandline": "ssh pi@watchtower",
+                "commandline": "ssh keeper@watchtower",
                 "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
             },
             {

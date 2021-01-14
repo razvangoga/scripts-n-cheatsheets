@@ -15,6 +15,7 @@ choco install microsoft-windows-terminal -y
 choco install paint.net -y
 choco install passwordsafe -y
 choco install samsung-magician -y
+choco install teamviewer -y
 choco install vlc -y
 choco install whatsapp -y
 choco install winscp -y

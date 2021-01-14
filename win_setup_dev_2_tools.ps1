@@ -40,3 +40,5 @@ choco install sysinternals -y
 choco install totalcommander -y
 choco install visualstudiocode -y
 choco install winmerge -y
+
+Set-Alias -Name dc -Value docker-compose
