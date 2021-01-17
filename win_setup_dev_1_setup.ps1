@@ -4,11 +4,11 @@
 
 #set powershell profile
 #pscore
-New-Item -ItemType file "$home\Documents\PowerShell\profile.ps1" -Force
-Copy-Item profile.ps1 "$home\Documents\PowerShell\profile.ps1"
+New-Item -ItemType file "$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Force
+Copy-Item profile.ps1 "$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
 #ps
-New-Item -ItemType file "$home\Documents\WindowsPowerShell\profile.ps1" -Force
-Copy-Item profile.ps1 "$home\Documents\WindowsPowerShell\profile.ps1"
+New-Item -ItemType file "$home\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" -Force
+Copy-Item profile.ps1 "$home\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
