@@ -18,6 +18,7 @@ choco install samsung-magician -y
 choco install teamviewer -y
 choco install vlc -y
 choco install whatsapp -y
+choco install windirstat -y
 choco install winscp -y
 
 #refresh the environment to have access to new tools
