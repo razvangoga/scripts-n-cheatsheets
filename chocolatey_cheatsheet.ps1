@@ -6,6 +6,9 @@ choco upgrade all --noop
 
 choco upgrade all -y
 
+#upgrade just the choco tracked version, if the package makes an auto update
+choco upgrade {{package_name}} -y -n
+
 #freeze package to specific version
 choco pin
 choco pin list

@@ -13,7 +13,7 @@ git branch -m {new_branch_name}
 git push origin --tags
 
 #github fork update
-git remote add upstream {{githup_original_repo_url}}
+git remote add upstream {{github_original_repo_url}}
 git fetch upstream
 git merge upstream/{{branch_name}}
 git push
