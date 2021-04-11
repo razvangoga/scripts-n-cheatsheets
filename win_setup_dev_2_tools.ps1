@@ -23,7 +23,7 @@ choco install microsoftazurestorageexplorer -y
 choco install microsoft-edge -y
 choco install microsoft-teams -y
 choco install microsoft-windows-terminal -y
-choco install nodejs -y
+choco install nodejs-lts -y
 choco install nswagstudio -y
 choco install opera -y
 choco install poshgit -y
