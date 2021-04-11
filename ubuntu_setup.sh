@@ -10,7 +10,8 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
 
-
+#azure cli
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 #other tools
 sudo apt install git
