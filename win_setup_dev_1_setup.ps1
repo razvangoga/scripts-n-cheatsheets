@@ -21,6 +21,7 @@ code --install-extension eamodio.gitlens
 code --install-extension heaths.vscode-guid
 code --install-extension hediet.vscode-drawio
 code --install-extension humao.rest-client
+code --install-extension jebbs.plantuml
 code --install-extension johnpapa.vscode-peacock
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
