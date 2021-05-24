@@ -25,3 +25,6 @@ sudo apt-get install -y powershell
 
 #other tools
 sudo apt install git
+
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
