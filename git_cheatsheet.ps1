@@ -9,6 +9,10 @@ git push --delete {usually_origin} {branch_name}
 #git rename local branch
 git branch -m {new_branch_name}
 
+#git untrack files / folders
+git rm --cached {{file_name}}
+git rm -r --cached {{folder_name}}
+
 #tags
 git push origin --tags
 
