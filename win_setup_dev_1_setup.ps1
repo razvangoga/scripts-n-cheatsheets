@@ -24,12 +24,13 @@ code --install-extension hediet.vscode-drawio
 code --install-extension humao.rest-client
 code --install-extension jebbs.plantuml
 code --install-extension johnpapa.vscode-peacock
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-azuretools.vscode-tye
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-vscode.csharp
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vsliveshare.vsliveshare
 
 #extra win features
 Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
