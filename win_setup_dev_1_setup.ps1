@@ -14,6 +14,7 @@ Copy-Item profile.ps1 "$home\Documents\WindowsPowerShell\Microsoft.PowerShell_pr
 dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
 dotnet tool install -g dotnet-outdated-tool
+dotnet tool install -g dotnet-gitversion
 
 #configure vs code
 code --install-extension DotJoshJohnson.xml
