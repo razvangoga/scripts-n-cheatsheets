@@ -4,6 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 #install chocolatey distributed tools
 choco install azure-cli -y
 choco install azure-data-studio -y
+choco install cascadia-code-nerd-font -y
 choco install chromium -y
 choco install docker-desktop -y
 choco install dotnetcore-sdk -y
