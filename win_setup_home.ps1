@@ -5,8 +5,10 @@ choco install 7zip -y
 choco install audioswitcher -y
 choco install brave -y
 choco install boxstarter -y
+choco install cpu-z -y
 choco install foxitreader -y
 choco install garmin-express -y
+choco install gpu-z -y
 choco install hwinfo -y
 choco install intel-xtu -y
 choco install logitech-options -y
