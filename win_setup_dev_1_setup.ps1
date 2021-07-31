@@ -36,17 +36,12 @@ code --install-extension ms-vsliveshare.vsliveshare
 #extra win features
 Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
 
-#wsl 2
-#https://docs.microsoft.com/en-us/windows/wsl/install-win10
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-
-Invoke-WebRequest -Uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -OutFile wsl_update_x64.msi
-& .\wsl_update_x64.msi
-
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-Copy-Item .wslconfig "$env:USERPROFILE\.wslconfig"
-
+#wsl
+#https://devblogs.microsoft.com/commandline/install-wsl-with-a-single-command-now-available-in-windows-10-version-2004-and-higher/
+wsl --install
 wsl --set-default-version 2
 
-#install wsl 2 distros
-Start-Process https://www.microsoft.com/store/productId/9NBLGGH4MSV6
+Copy-Item .wslconfig "$env:USERPROFILE\.wslconfig"
+
+#install wsl distros
+wsl --install -d Ubuntu
