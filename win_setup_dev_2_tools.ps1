@@ -36,7 +36,7 @@ choco install ServiceBusExplorer -y
 choco install slack -y
 choco install skype -y
 choco install sqlyog -y
-choco install sublimetext3 -y
+choco install sublimetext4 -y
 choco install sysinternals -y
 choco install totalcommander -y
 choco install visualstudiocode -y
