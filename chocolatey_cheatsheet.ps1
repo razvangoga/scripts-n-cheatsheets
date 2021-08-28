@@ -15,8 +15,12 @@ choco pin list
 choco pin add --name=git --version=1.2.3
 choco pin remove --name git
 
-#wsl updategrep
-wsl -d "Ubuntu-18.04" -u root -e apt update && wsl -d "Ubuntu-18.04" -u root -e apt upgrade -y
+#wsl
+wsl --update
+wsl -d "{dist_name}" -u root -e apt update && wsl -d "{dist_name}" -u root -e apt upgrade -y
+
+#reset imaage
+wsl --unregister Ubuntu; wsl --install -d Ubuntu; wsl -s Ubuntu
 
 #shrink wsl ext4.vhdx
 #https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/
