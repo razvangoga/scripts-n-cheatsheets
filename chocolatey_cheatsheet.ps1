@@ -19,8 +19,8 @@ choco pin remove --name git
 wsl --update
 wsl -d "{dist_name}" -u root -e apt update && wsl -d "{dist_name}" -u root -e apt upgrade -y
 
-#reset imaage
-wsl --unregister Ubuntu; wsl --install -d Ubuntu; wsl -s Ubuntu
+#reset image
+wsl --unregister "{dist_name}"; wsl --install -d "{dist_name}"; wsl -s "{dist_name}"
 
 #shrink wsl ext4.vhdx
 #https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/
