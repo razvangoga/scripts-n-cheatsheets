@@ -15,14 +15,34 @@
                 "name": "PowerShell Core",
                 "source": "Windows.Terminal.PowershellCore",
                 "colorScheme": "Dracula"
-            },           
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            } ,                   
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
                 "colorScheme": "idleToes",
                 "acrylicOpacity": 1
-            },                        
+            },
+            {
+                "guid": "{72bdbea5-a7d8-4f7a-abb6-302ce39af00f}",
+                "name": "pihole",
+                "tabTitle": "pihole",
+                "commandline": "ssh ubuntu@pihole",
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/pi-hole.png"
+            },
+            {
+                "guid": "{9220161d-e73e-44b4-b634-4359a0cccf7c}",
+                "name": "watchtower",
+                "tabTitle": "watchtower",
+                "commandline": "ssh keeper@watchtower",
+                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
+            },                                           
             {
                 "guid": "{4b9b87f1-e114-4528-a0e0-fb7d93ec9f13}",
                 "name": "lcc k8s master",
@@ -38,19 +58,12 @@
                 "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/city17.png"
             },
             {
-                "guid": "{9220161d-e73e-44b4-b634-4359a0cccf7c}",
-                "name": "watchtower",
-                "tabTitle": "watchtower",
-                "commandline": "ssh keeper@watchtower",
-                "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/watchtower.jpeg"
-            },
-            {
                 "guid": "{72bdbea5-a7d8-4f7a-abb6-302ce39af00f}",
                 "name": "retropie",
                 "tabTitle": "retropie",
                 "commandline": "ssh pi@retropie",
                 "icon": "E:/OneDrive/Work/scripts-n-cheatsheets/terminal-icons/retropie.png"
-            },
+            },           
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
@@ -62,13 +75,7 @@
                 "name": "cmd",
                 "commandline": "cmd.exe",
                 "colorScheme": "Dracula"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            }                               
+            }                             
         ]
     },
     // Add custom color schemes to this array
