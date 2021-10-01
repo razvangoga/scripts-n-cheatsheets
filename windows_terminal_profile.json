@@ -30,7 +30,7 @@
                 "acrylicOpacity": 1
             },
             {
-                "guid": "{72bdbea5-a7d8-4f7a-abb6-302ce39af00f}",
+                "guid": "{72bdbea5-a7d8-4f7a-0000-302ce39af00f}",
                 "name": "pihole",
                 "tabTitle": "pihole",
                 "commandline": "ssh ubuntu@pihole",
