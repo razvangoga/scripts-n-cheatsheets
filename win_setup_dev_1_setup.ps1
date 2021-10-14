@@ -2,6 +2,9 @@
 #Install-Module oh-my-posh -Scope CurrentUser
 #https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
 
+#Powershell modules
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
 #set powershell profile
 #pscore
 New-Item -ItemType file "$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Force

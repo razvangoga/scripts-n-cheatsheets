@@ -26,6 +26,7 @@ choco install microsoft-teams -y
 choco install microsoft-windows-terminal -y
 choco install nodejs-lts -y
 choco install nswagstudio -y
+choco install oh-my-posh -y
 choco install openjdk -y
 choco install opera -y
 choco install poshgit -y

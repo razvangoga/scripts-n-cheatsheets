@@ -24,5 +24,6 @@ wsl --unregister "{dist_name}"; wsl --install -d "{dist_name}"; wsl -s "{dist_na
 
 #shrink wsl ext4.vhdx
 #https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/
+#https://www.hanselman.com/blog/shrink-your-wsl2-virtual-disks-and-docker-images-and-reclaim-disk-space
 
 #wsl config https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
