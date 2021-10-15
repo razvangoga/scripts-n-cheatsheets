@@ -1,4 +1,3 @@
-Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
 Import-Module -Name Terminal-Icons
 oh-my-posh --init --shell pwsh --config E:/OneDrive/Work/scripts-n-cheatsheets/ohmyposh.json | Invoke-Expression
 
