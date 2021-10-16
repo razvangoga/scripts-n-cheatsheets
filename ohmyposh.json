@@ -22,14 +22,6 @@
                     }
                 },                
                 {
-                    "type": "time",
-                    "style": "plain",
-                    "foreground": "#FFBB00",
-                    "properties": {
-                        "time_format": "15:04:05"
-                    }
-                },
-                {
                     "type": "path",
                     "style": "plain",
                     "foreground": "#33DD2D",
