@@ -29,6 +29,7 @@ choco install nswagstudio -y
 choco install oh-my-posh -y
 choco install openjdk -y
 choco install opera -y
+choco install poshgit -y
 choco install postman -y
 choco install powertoys -y
 choco install powershell-core -y
