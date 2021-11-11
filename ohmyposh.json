@@ -58,18 +58,6 @@
                     }
                 },
                 {
-                    "type": "az",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "foreground": "#9ec3f0",
-                    "properties": {
-                      "display_id": true,
-                      "display_name": true,
-                      "info_separator": " @ ",
-                      "prefix": " \uFD03 "
-                    }
-                },
-                {
                     "type": "executiontime",
                     "style": "plain",
                     "foreground": "#b55aee",
