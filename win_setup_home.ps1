@@ -1,6 +1,9 @@
 #install chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
+#chocolatey licence extension
+choco upgrade chocolatey.extension -y
+
 choco install 7zip -y
 choco install audioswitcher -y
 choco install brave -y
