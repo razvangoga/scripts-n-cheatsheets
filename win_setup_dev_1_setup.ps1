@@ -22,6 +22,7 @@ dotnet tool install -g GitVersion.Tool
 #configure vs code
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
+code --install-extension felipe-mendes.slack-theme
 code --install-extension github.github-vscode-theme
 code --install-extension heaths.vscode-guid
 code --install-extension hediet.vscode-drawio
