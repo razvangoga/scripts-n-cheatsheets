@@ -27,3 +27,7 @@ wsl --unregister "{dist_name}"; wsl --install -d "{dist_name}"; wsl -s "{dist_na
 #https://www.hanselman.com/blog/shrink-your-wsl2-virtual-disks-and-docker-images-and-reclaim-disk-space
 
 #wsl config https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
+
+#nuget
+#clear local packet cache
+dotnet nuget locals all -c
