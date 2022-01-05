@@ -13,6 +13,11 @@ git branch -m {new_branch_name}
 git rm --cached {{file_name}}
 git rm -r --cached {{folder_name}}
 
+#git configs
+#user custom ssk key
+git config --global core.sshCommand 'ssh -i C:/Users/some-user/.ssh/key_rsa'
+
+
 #tags
 git push origin --tags
 
