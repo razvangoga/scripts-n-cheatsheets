@@ -34,6 +34,7 @@ choco install poshgit -y
 choco install postman -y
 choco install powertoys -y
 choco install powershell-core -y
+choco install python3 -y
 choco install rdmfree -y
 choco install ServiceBusExplorer -y
 choco install slack -y
