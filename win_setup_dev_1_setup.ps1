@@ -4,6 +4,8 @@
 
 #Powershell modules
 Install-Module -Name Terminal-Icons -Repository PSGallery
+Install-Module -Name PSReadLine -Force
+Install-Module -Name Az.Tools.Predictor -AllowPrerelease -Force
 
 #set powershell profile
 #pscore
