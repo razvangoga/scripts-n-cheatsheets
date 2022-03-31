@@ -19,11 +19,13 @@ choco install gitkraken -y
 choco install golang -y
 choco install jetbrainstoolbox -y
 choco install lens -y
-choco install linqpad -y
+choco install linqpad7 -y
+choco install kubernetes-helm -y
 choco install microsoftazurestorageexplorer -y
 choco install microsoft-edge -y
 choco install microsoft-teams -y
 choco install microsoft-windows-terminal -y
+choco install minikube -y
 choco install nodejs-lts -y
 choco install nswagstudio -y
 choco install oh-my-posh -y
@@ -42,6 +44,7 @@ choco install skype -y
 choco install sqlyog -y
 choco install sublimetext4 -y
 choco install sysinternals -y
+choco install terraform -y
 choco install totalcommander -y
 choco install visualstudiocode -y
 choco install winmerge -y
