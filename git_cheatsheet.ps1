@@ -14,8 +14,15 @@ git rm --cached {{file_name}}
 git rm -r --cached {{folder_name}}
 
 #git configs
+#win
 #user custom ssk key
-git config --global core.sshCommand 'ssh -i C:/Users/some-user/.ssh/key_rsa'
+git config --global core.sshCommand 'ssh -i C:/Users/some-user/.ssh/{key_rsa}'
+
+#macos
+git config --global core.autocrlf input
+git config --global core.sshCommand 'ssh -i ~/.ssh/{key_rsa}'
+chmod 600 ~/.ssh/{key_rsa}
+chmod 644 ~/.ssh/{key_rsa}.pub
 
 
 #tags
