@@ -25,8 +25,7 @@ brew install --cask lens
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
 brew install minikube
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install oh-my-posh
 brew install --cask postman
 brew install --cask powershell
