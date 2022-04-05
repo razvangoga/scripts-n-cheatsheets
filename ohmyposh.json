@@ -8,6 +8,7 @@
           "foreground": "#3A86FF",
           "leading_diamond": " ",
           "style": "diamond",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "type": "os"
         },
         {
@@ -17,6 +18,7 @@
             "style": "full"
           },
           "style": "plain",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
@@ -27,16 +29,19 @@
             "fetch_upstream_icon": true
           },
           "style": "plain",
+          "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
           "type": "git"
         },
         {
           "foreground": "#0184bc",
           "style": "plain",
+          "template": " \ue77f {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }} ",
           "type": "dotnet"
         },
         {
           "foreground": "#6CA35E",
           "style": "plain",
+          "template": " \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
           "type": "node"
         },
         {
@@ -57,11 +62,13 @@
             "threshold": 10
           },
           "style": "plain",
+          "template": " <#fefefe>\ufbab</> {{ .FormattedMs }} ",
           "type": "executiontime"
         },
         {
           "foreground": "#D75F00",
           "style": "plain",
+          "template": "λ ",
           "type": "text"
         }
       ],

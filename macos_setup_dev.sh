@@ -7,6 +7,8 @@ cp .zshrc ~/.zshrc
 #home
 brew install --cask microsoft-edge
 brew install --cask sublime-text
+brew install --cask whatsapp
+brew install --cask zoom
 
 #dev
 brew install azure-cli
