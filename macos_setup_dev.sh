@@ -21,6 +21,7 @@ brew install git
 brew install --cask gitkraken
 brew install go
 brew install helm
+brew install httpie
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask lens
@@ -34,3 +35,4 @@ brew install --cask postman
 brew install --cask powershell
 brew install terraform
 brew install --cask visual-studio-code
+brew install wget
