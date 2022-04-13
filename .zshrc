@@ -1,4 +1,5 @@
-alias ll='ls -al'
+alias ls='exa -a'
+alias ll='exa -al'
 alias dc=docker-compose
 alias md=mkdir
 alias tf=terraform

@@ -1,7 +1,17 @@
 #!/bin/sh
 
+# do not open previous previewed files (e.g. PDFs) when opening a new one
+defaults write com.apple.Preview ApplePersistenceIgnoreState YES
+# show Library folder
+chflags nohidden ~/Library
+# show hidden files
 defaults write com.apple.Finder AppleShowAllFiles true
-cp .zshrc ~/.zshrc
+# show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+# show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+killall Finder;
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #home
@@ -21,7 +31,6 @@ brew install git
 brew install --cask gitkraken
 brew install go
 brew install helm
-brew install httpie
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask lens
@@ -35,4 +44,11 @@ brew install --cask postman
 brew install --cask powershell
 brew install terraform
 brew install --cask visual-studio-code
+
+#cli tools
+brew install exa
+brew install httpie
+brew install jq
 brew install wget
+
+cp .zshrc ~/.zshrc && source ~/.zshrc
