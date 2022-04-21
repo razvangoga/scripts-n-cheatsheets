@@ -13,7 +13,6 @@ choco install foxitreader -y
 choco install garmin-express -y
 choco install gpu-z -y
 choco install hwinfo -y
-choco install intel-xtu -y
 choco install logitech-options -y
 choco install microsoft-edge -y
 choco install microsoft-windows-terminal -y
@@ -21,6 +20,7 @@ choco install paint.net -y
 choco install passwordsafe -y
 choco install samsung-magician -y
 choco install teamviewer -y
+choco install throttlestop -y
 choco install vlc -y
 choco install whatsapp -y
 choco install windirstat -y
