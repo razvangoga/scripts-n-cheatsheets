@@ -24,6 +24,7 @@ brew install --cask zoom
 brew install azure-cli
 brew install --cask azure-data-studio
 brew install --cask chromium
+brew install --cask commander-one
 brew install --cask docker
 brew install --cask drawio
 brew install --cask firefox
