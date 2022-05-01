@@ -43,6 +43,8 @@ brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install oh-my-posh
 brew install --cask postman
 brew install --cask powershell
+brew install --cask remote-desktop-manager-free
+brew install --cask teamviewer
 brew install terraform
 brew install --cask visual-studio-code
 
