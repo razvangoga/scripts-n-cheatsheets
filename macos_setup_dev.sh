@@ -48,6 +48,13 @@ brew install --cask teamviewer
 brew install terraform
 brew install --cask visual-studio-code
 
+#dotnet
+#official / latest
+brew install --cask dotnet-sdk
+# older https://github.com/isen-ng/homebrew-dotnet-sdk-versions
+brew tap isen-ng/dotnet-sdk-versions
+brew install --cask dotnet-sdk6-0-200
+
 #cli tools
 brew install exa
 brew install httpie
