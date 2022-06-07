@@ -1,7 +1,11 @@
 docker search {{image_name}}
 docker logs {{container_name_or_id}} 
-docker exec -it {{container_name_or_id}} PowerShell 
 docker cp {{local_source_file}} {{container_name_or_id}}:{{destination_path_in_container}}
+
+#exec as default container user
+docker exec -it {{container_name_or_id}} bash 
+# exec as root
+docker exec -u 0 -it {{container_name_or_id}} bash 
 
 docker stop $(docker ps -a -q)
 
