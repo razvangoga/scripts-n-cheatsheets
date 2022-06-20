@@ -41,6 +41,7 @@ brew install minikube
 brew install node@16 && brew link --force node@16
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install oh-my-posh
+brew install openjdk
 brew install --cask postman
 brew install --cask powershell
 brew install --cask remote-desktop-manager-free
