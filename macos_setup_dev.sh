@@ -15,6 +15,9 @@ killall Finder;
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #home
+brew tap homebrew/cask-drivers
+brew install garmin-express
+
 brew install --cask microsoft-edge
 brew install --cask sublime-text
 brew install --cask whatsapp
