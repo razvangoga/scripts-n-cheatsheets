@@ -20,6 +20,7 @@ brew install garmin-express
 
 brew install --cask microsoft-edge
 brew install --cask sublime-text
+brew install --cask tg-pro
 brew install --cask whatsapp
 brew install --cask zoom
 
