@@ -15,6 +15,8 @@ killall Finder;
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #home
+brew install --cask balenaetcher
+
 brew tap homebrew/cask-drivers
 brew install garmin-express
 
@@ -51,6 +53,7 @@ brew install --cask powershell
 brew install --cask remote-desktop-manager-free
 brew install --cask teamviewer
 brew install terraform
+brew install volta
 brew install --cask visual-studio-code
 
 #dotnet

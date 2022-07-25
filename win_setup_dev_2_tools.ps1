@@ -25,7 +25,7 @@ choco install microsoft-edge -y
 choco install microsoft-teams -y
 choco install microsoft-windows-terminal -y
 choco install minikube -y
-choco install nodejs-lts -y
+choco install nodejs -y
 choco install nswagstudio -y
 choco install oh-my-posh -y
 choco install openjdk -y
@@ -46,4 +46,5 @@ choco install sysinternals -y
 choco install terraform -y
 choco install totalcommander -y
 choco install visualstudiocode -y
+choco install volta -y
 choco install winmerge -y
