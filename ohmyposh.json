@@ -22,7 +22,7 @@
           "type": "path"
         },
         {
-          "foreground": "#fffb38",
+          "foreground": "#2bb5bf",
           "properties": {
             "fetch_stash_count": true,
             "fetch_status": true,

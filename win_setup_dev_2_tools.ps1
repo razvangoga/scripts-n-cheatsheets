@@ -16,7 +16,9 @@ choco install firefox -y
 choco install git -y
 choco install gitkraken -y
 choco install golang -y
+choco install httpie -y
 choco install jetbrainstoolbox -y
+choco install jq -y
 choco install lens -y
 choco install linqpad7 -y
 choco install kubernetes-helm -y

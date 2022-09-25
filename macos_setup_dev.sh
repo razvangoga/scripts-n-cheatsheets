@@ -33,13 +33,16 @@ brew install --cask chromium
 brew install --cask commander-one
 brew install --cask docker
 brew install --cask drawio
+brew install exa
 brew install --cask firefox
 brew install git
 brew install --cask gitkraken
 brew install go
 brew install helm
+brew install httpie
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
+brew install jq
 brew install --cask lens
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
@@ -55,6 +58,7 @@ brew install --cask teamviewer
 brew install terraform
 brew install volta
 brew install --cask visual-studio-code
+brew install wget
 
 #dotnet
 #official / latest
@@ -62,11 +66,5 @@ brew install --cask dotnet-sdk
 # older https://github.com/isen-ng/homebrew-dotnet-sdk-versions
 brew tap isen-ng/dotnet-sdk-versions
 brew install --cask dotnet-sdk6-0-200
-
-#cli tools
-brew install exa
-brew install httpie
-brew install jq
-brew install wget
 
 cp .zshrc ~/.zshrc && source ~/.zshrc

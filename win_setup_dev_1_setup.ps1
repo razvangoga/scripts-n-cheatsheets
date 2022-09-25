@@ -22,6 +22,7 @@ dotnet tool install -g dotnet-outdated-tool
 dotnet tool install -g GitVersion.Tool
 
 #configure vs code
+code --install-extension bierner.markdown-mermaid
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
 code --install-extension felipe-mendes.slack-theme
