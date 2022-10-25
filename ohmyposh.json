@@ -45,6 +45,15 @@
           "type": "node"
         },
         {
+          "type": "python",
+          "style": "plain",
+          "properties": {
+            "display_mode": "files"
+          },
+          "foreground": "#906cff",
+          "template": " \uE235 {{ .Full }} "
+        },        
+        {
           "foreground": "#9ec3f0",
           "properties": {
             "display_id": true,

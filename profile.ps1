@@ -3,7 +3,6 @@ Import-Module -Name Terminal-Icons
 oh-my-posh --init --shell pwsh --config E:/OneDrive/Work/scripts-n-cheatsheets/ohmyposh.json | Invoke-Expression
 
 Set-PSReadlineKeyHandler -Chord Tab -Function MenuComplete
-Set-Alias -Name dc -Value docker-compose
 
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
@@ -18,3 +17,13 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
            [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
         }
   }
+
+# aliases
+Set-Alias -Name dc -Value docker-compose -Force
+
+#https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
+function New-Tab { wt -w 0 nt -d . }
+Set-Alias -Name wtnt -Value New-Tab
+
+#temps
+Set-Alias -Name tyed -Value d:\_work\oss\tye\artifacts\bin\tye\Debug\net6.0\tye.exe -Force

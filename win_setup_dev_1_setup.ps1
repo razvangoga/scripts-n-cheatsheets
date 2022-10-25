@@ -4,16 +4,17 @@
 
 #Powershell modules
 Install-Module -Name Terminal-Icons -Repository PSGallery
+
+Install-Module -Name Az -Force -AllowClobber
 Install-Module -Name PSReadLine -Force
-Install-Module -Name Az.Tools.Predictor -AllowPrerelease -Force
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Install-Module -Name CompletionPredictor -Repository PSGallery
+Import-Module -Name CompletionPredictor
+Install-module -Name Az.Tools.Predictor -Force
+Import-Module -Name Az.Tools.Predictor
 
 #set powershell profile
-#pscore
-New-Item -ItemType file "$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Force
-Copy-Item profile.ps1 "$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
-#ps
-New-Item -ItemType file "$home\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" -Force
-Copy-Item profile.ps1 "$home\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
+. $pwd\win_setup_dev_1_setup_ps_profile.ps1
 
 #dotnetcore global tools
 dotnet tool install -g dotnet-depends
