@@ -52,7 +52,13 @@
           },
           "foreground": "#906cff",
           "template": " \uE235 {{ .Full }} "
-        },        
+        },    
+        {
+          "type": "ruby",
+          "style": "plain",
+          "foreground": "#ec7fc0",
+          "template": " \uE791 {{ .Full }} "
+        },            
         {
           "foreground": "#9ec3f0",
           "properties": {

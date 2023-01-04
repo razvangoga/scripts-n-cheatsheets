@@ -57,6 +57,7 @@ brew install --cask remote-desktop-manager-free
 brew install --cask teamviewer
 brew install terraform
 brew install volta
+brew install --cask visual-studio
 brew install --cask visual-studio-code
 brew install wget
 
@@ -66,5 +67,6 @@ brew install --cask dotnet-sdk
 # older https://github.com/isen-ng/homebrew-dotnet-sdk-versions
 brew tap isen-ng/dotnet-sdk-versions
 brew install --cask dotnet-sdk6-0-200
+brew install --cask dotnet-sdk6-0-400
 
 cp .zshrc ~/.zshrc && source ~/.zshrc

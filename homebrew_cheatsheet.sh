@@ -8,3 +8,6 @@ brew outdated --greedy
 
 #update all installed packages
 brew upgrade --greedy
+
+#check homebrew status
+brew doctor
