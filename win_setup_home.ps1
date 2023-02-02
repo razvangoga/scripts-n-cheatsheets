@@ -6,7 +6,6 @@ choco upgrade chocolatey.extension -y
 
 choco install 7zip -y
 choco install audioswitcher -y
-choco install brave -y
 choco install boxstarter -y
 choco install cpu-z -y
 choco install foxitreader -y
@@ -14,8 +13,6 @@ choco install garmin-express -y
 choco install gpu-z -y
 choco install hwinfo -y
 choco install logitech-options -y
-choco install microsoft-edge -y
-choco install microsoft-windows-terminal -y
 choco install paint.net -y
 choco install passwordsafe -y
 choco install samsung-magician -y

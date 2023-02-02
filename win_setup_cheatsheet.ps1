@@ -1,3 +1,6 @@
+#############
+#  chocolatey
+#############
 #view all packages installed via choco
 choco list --local-only
 
@@ -15,7 +18,17 @@ choco pin list
 choco pin add --name=git --version=1.2.3
 choco pin remove --name git
 
-#wsl
+########
+# winget
+########
+
+winget list --source winget
+
+
+
+######
+#  wsl
+######
 wsl --update
 wsl -d "{dist_name}" -u root -e apt update && wsl -d "{dist_name}" -u root -e apt upgrade -y
 

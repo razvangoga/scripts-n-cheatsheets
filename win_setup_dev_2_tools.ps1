@@ -2,13 +2,9 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 #install chocolatey distributed tools
-choco install azure-cli -y
-choco install azure-data-studio -y
 choco install cascadia-code-nerd-font -y
 choco install chromium -y
 choco install docker-desktop -y
-choco install dotnetcore-sdk -y
-choco install dotnet-sdk -y
 choco install drawio -y
 choco install etcher -y
 choco install fiddler -y
@@ -22,23 +18,18 @@ choco install jq -y
 choco install lens -y
 choco install linqpad7 -y
 choco install kubernetes-helm -y
-choco install microsoftazurestorageexplorer -y
-choco install microsoft-edge -y
-choco install microsoft-teams -y
-choco install microsoft-windows-terminal -y
+choco install kustomize -y
 choco install minikube -y
 choco install nodejs -y
 choco install nswagstudio -y
 choco install oh-my-posh -y
 choco install openjdk -y
 choco install openssl -y
-choco install opera -y
 choco install poshgit -y
 choco install postman -y
-choco install powertoys -y
-choco install powershell-core -y
 choco install python3 -y
 choco install rdmfree -y
+choco install rufus -y
 choco install ServiceBusExplorer -y
 choco install slack -y
 choco install skype -y
@@ -47,6 +38,5 @@ choco install sublimetext4 -y
 choco install sysinternals -y
 choco install terraform -y
 choco install totalcommander -y
-choco install visualstudiocode -y
 choco install volta -y
 choco install winmerge -y
