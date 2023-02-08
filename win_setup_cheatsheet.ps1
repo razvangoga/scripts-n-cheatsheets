@@ -1,6 +1,6 @@
-#############
-#  chocolatey
-#############
+############
+# chocolatey
+############
 #view all packages installed via choco
 choco list --local-only
 
@@ -23,12 +23,11 @@ choco pin remove --name git
 ########
 
 winget list --source winget
+winget upgrade
 
-
-
-######
-#  wsl
-######
+#####
+# wsl
+#####
 wsl --update
 wsl -d "{dist_name}" -u root -e apt update && wsl -d "{dist_name}" -u root -e apt upgrade -y
 
@@ -41,6 +40,9 @@ wsl --unregister "{dist_name}"; wsl --install -d "{dist_name}"; wsl -s "{dist_na
 
 #wsl config https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
 
-#nuget
+#######
+# nuget
+#######
+
 #clear local packet cache
 dotnet nuget locals all -c
