@@ -14,3 +14,7 @@ winget install Microsoft.Teams
 winget install Microsoft.VisualStudio.2022.Community
 winget install Microsoft.VisualStudioCode
 winget install Microsoft.WindowsTerminal
+
+#nuget credential manager
+#iex "& { $(irm https://aka.ms/install-artifacts-credprovider.ps1) }"
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://aka.ms/install-artifacts-credprovider.ps1'))
