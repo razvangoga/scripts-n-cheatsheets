@@ -1,7 +1,7 @@
 param (
     [Parameter(Mandatory = $true)][string]$folder,
-    [Parameter(Mandatory = $true)][string]$userName,
-    [Parameter(Mandatory = $true)][string]$email
+    [Parameter(Mandatory = $false)][string]$userName,
+    [Parameter(Mandatory = $false)][string]$email
 )
 
 if (-not (Test-Path -Path $folder)) {
@@ -9,7 +9,29 @@ if (-not (Test-Path -Path $folder)) {
     Exit 1
 }
 
+$profileFileName = "rg_profile.json"
+$profilePath = Join-Path -Path $folder -ChildPath $profileFileName
+$credentialsConfigExist = Test-Path -Path $profilePath
+$credentialsGivenAsPrms = $userName -And $email 
+
+$userNameToSet = ''
+$emailToSet = ''
 $hasGitRepos = $false
+
+if($credentialsConfigExist) {
+    $credentials = (Get-Content $profilePath) | ConvertFrom-Json
+    $userNameToSet = $credentials.userName
+    $emailToSet = $credentials.email
+} elseif ($credentialsGivenAsPrms) {
+    $userNameToSet = $userName
+    $emailToSet = $email
+} else {
+    Write-Error "Give user credentials either via parameters or via an $profileFileName located in the target folder"
+    Exit 1
+}
+
+Write-Host "Setting the userName and email for all repos to <$userNameToSet ($emailToSet)>"
+Write-Host ""
 
 Get-ChildItem -Directory -Path $folder | Foreach-Object {
     $repo = $_.FullName
@@ -20,8 +42,8 @@ Get-ChildItem -Directory -Path $folder | Foreach-Object {
         Write-Host "$repo -> setting user info"
         $hasGitRepos = $true
 
-        & git -C $repo config user.email $userName
-        & git -C $repo config user.name $email
+        & git -C $repo config user.email $userNameToSet
+        & git -C $repo config user.name $emailToSet
     }
 }
 
@@ -32,7 +54,3 @@ if($hasGitRepos) {
 } else {
     Write-Warning "No git repos found to update"
 }
-
-# user.email=r.goga@enbw.com
-# user.name=Razvan Goga
-
