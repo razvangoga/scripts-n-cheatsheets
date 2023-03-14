@@ -27,6 +27,9 @@ docker-compose up -d
 #building containers
 docker build . -t {{image_name}}
 
+#clean unused stuff
+docker system prune
+
 #updating images
 docker commit {{container_name_or_id}} {{container_repository_name}}/{{image_name}}:{{initial_tag}}
 docker tag {{container_repository_name}}/{{image_name}}:{{some_other_tag}}
