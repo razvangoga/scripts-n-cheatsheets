@@ -13,6 +13,7 @@ choco install garmin-express -y
 choco install gpu-z -y
 choco install hwinfo -y
 choco install logitech-options -y
+choco install logioptionsplus -y
 choco install paint.net -y
 choco install passwordsafe -y
 choco install samsung-magician -y
