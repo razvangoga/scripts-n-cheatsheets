@@ -8,6 +8,7 @@ choco install 7zip -y
 choco install audioswitcher -y
 choco install boxstarter -y
 choco install cpu-z -y
+choco install crystaldiskmark -y
 choco install foxitreader -y
 choco install garmin-express -y
 choco install gpu-z -y
