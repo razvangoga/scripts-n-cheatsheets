@@ -13,6 +13,8 @@ git branch -m {new_branch_name}
 git rm --cached {{file_name}}
 git rm -r --cached {{folder_name}}
 
+git remote prune origin
+
 #git configs
 #win
 #user custom ssk key

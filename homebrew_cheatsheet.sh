@@ -11,3 +11,6 @@ brew upgrade --greedy
 
 #check homebrew status
 brew doctor
+
+#clean cache
+brew cleanup --prune=all

@@ -49,7 +49,7 @@ Get-ChildItem -Directory -Path $folder | Foreach-Object {
         Write-Warning "$repo -> is not a git repo"
     }
     else {
-        Write-Host "$repo -> setting user info"
+        Write-Host "$repo -> setting user info" -ForegroundColor Black -BackgroundColor Yellow
         $hasGitRepos = $true
 
         & git -C $repo config user.email $credentials.userName

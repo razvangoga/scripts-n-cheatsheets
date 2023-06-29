@@ -77,7 +77,7 @@
             "threshold": 10
           },
           "style": "plain",
-          "template": " <#fefefe>\ufbab</> {{ .FormattedMs }} ",
+          "template": "\uf250 {{ .FormattedMs }} ",
           "type": "executiontime"
         },
         {

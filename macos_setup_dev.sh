@@ -68,5 +68,6 @@ brew install --cask dotnet-sdk
 brew tap isen-ng/dotnet-sdk-versions
 brew install --cask dotnet-sdk6-0-200
 brew install --cask dotnet-sdk6-0-400
+brew install --cask dotnet-sdk7-0-100
 
 cp .zshrc ~/.zshrc && source ~/.zshrc
