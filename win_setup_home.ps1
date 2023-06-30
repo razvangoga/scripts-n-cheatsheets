@@ -3,6 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 #chocolatey licence extension
 choco upgrade chocolatey.extension -y
+choco install chocolateygui -y
 
 choco install 7zip -y
 choco install audioswitcher -y
