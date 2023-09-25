@@ -20,6 +20,7 @@ brew install --cask balenaetcher
 brew tap homebrew/cask-drivers
 brew install garmin-express
 
+brew install --cask alt-tab
 brew install --cask microsoft-edge
 brew install --cask sublime-text
 brew install --cask tg-pro
