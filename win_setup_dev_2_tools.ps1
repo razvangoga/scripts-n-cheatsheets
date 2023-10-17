@@ -7,7 +7,6 @@ choco install chromium -y
 choco install docker-desktop -y
 choco install drawio -y
 choco install etcher -y
-choco install fiddler -y
 choco install firefox -y
 choco install git -y
 choco install gitkraken -y

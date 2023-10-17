@@ -21,6 +21,12 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 # aliases
 Set-Alias -Name dc -Value docker-compose -Force
 
+function git-checkout { git checkout $args }
+Set-Alias -Name gtc -Value git-checkout
+
+function git-checkout-branch { git checkout -b $args }
+Set-Alias -Name gtcb -Value git-checkout-branch
+
 #https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
 function New-Tab { wt -w 0 nt -d . }
 Set-Alias -Name wtnt -Value New-Tab
