@@ -38,4 +38,5 @@ choco install sysinternals -y
 choco install terraform -y
 choco install totalcommander -y
 choco install volta -y
+choco install vscodium -y
 choco install winmerge -y

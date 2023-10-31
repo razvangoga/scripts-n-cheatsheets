@@ -61,6 +61,7 @@ brew install terraform
 brew install volta
 brew install --cask visual-studio
 brew install --cask visual-studio-code
+brew install --cask vscodium
 brew install wget
 
 #dotnet
