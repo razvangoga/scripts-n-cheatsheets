@@ -19,6 +19,7 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
   }
 
 # aliases
+Set-Alias -Name cdm -Value codium -Force
 Set-Alias -Name dc -Value docker-compose -Force
 
 function git-checkout { git checkout $args }
