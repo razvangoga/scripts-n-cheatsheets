@@ -33,4 +33,4 @@ function New-Tab { wt -w 0 nt -d . }
 Set-Alias -Name wtnt -Value New-Tab
 
 #temps
-Set-Alias -Name tyed -Value d:\_work\oss\tye\artifacts\bin\tye\Debug\net6.0\tye.exe -Force
+Set-Alias -Name tye -Value d:\_work\oss\tye2\artifacts\bin\tye\Debug\net6.0\tye.exe -Force
