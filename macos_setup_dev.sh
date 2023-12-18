@@ -36,6 +36,7 @@ brew install --cask docker
 brew install --cask drawio
 brew install exa
 brew install --cask firefox
+brew install --cask fork
 brew install git
 brew install --cask gitkraken
 brew install go
