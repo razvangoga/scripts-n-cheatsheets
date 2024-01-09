@@ -8,6 +8,7 @@ choco install chocolateygui -y
 choco install 7zip -y
 choco install audioswitcher -y
 choco install boxstarter -y
+choco install coretemp -y
 choco install cpu-z -y
 choco install crystaldiskmark -y
 choco install foxitreader -y
