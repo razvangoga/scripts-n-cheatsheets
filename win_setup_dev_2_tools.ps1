@@ -15,7 +15,6 @@ choco install httpie -y
 choco install jetbrainstoolbox -y
 choco install jq -y
 choco install lens -y
-choco install linqpad7 -y
 choco install kubernetes-helm -y
 choco install kustomize -y
 choco install minikube -y
