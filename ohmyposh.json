@@ -20,7 +20,7 @@
           "style": "plain",
           "template": " {{ .Path }} ",
           "type": "path"
-        },
+        },        
         {
           "foreground": "#2bb5bf",
           "properties": {
@@ -90,7 +90,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{if .Root}}(Admin) {{end}}{{.Folder}}",
+  "console_title_template": "{{if .Root}}(\u26a1Root) {{end}}{{.Folder}}",
   "final_space": true,
   "version": 2
 }
