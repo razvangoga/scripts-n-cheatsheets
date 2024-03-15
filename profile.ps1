@@ -31,6 +31,3 @@ Set-Alias -Name gtcb -Value git-checkout-branch
 #https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
 function New-Tab { wt -w 0 nt -d . }
 Set-Alias -Name wtnt -Value New-Tab
-
-#temps
-Set-Alias -Name tye -Value D:\_work\oss\tye2\src\tye\bin\Debug\net6.0\tye.exe -Force
