@@ -2,7 +2,6 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 #install chocolatey distributed tools
-choco install cascadia-code-nerd-font -y
 choco install chromium -y
 choco install docker-desktop -y
 choco install drawio -y
@@ -18,6 +17,7 @@ choco install lens -y
 choco install kubernetes-helm -y
 choco install kustomize -y
 choco install minikube -y
+choco install nerdfont-hack -y
 choco install nodejs -y
 choco install nswagstudio -y
 choco install oh-my-posh -y
@@ -31,7 +31,6 @@ choco install rufus -y
 choco install ServiceBusExplorer -y
 choco install slack -y
 choco install skype -y
-choco install sqlyog -y
 choco install sublimetext4 -y
 choco install sysinternals -y
 choco install terraform -y
