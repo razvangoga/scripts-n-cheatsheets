@@ -11,6 +11,7 @@ winget install Microsoft.NuGet
 winget install Microsoft.PowerToys
 winget install Microsoft.PowerShell
 winget install Microsoft.Office
+winget install Microsoft.Skype 
 winget install Microsoft.Teams
 winget install Microsoft.VisualStudio.2022.Community
 winget install Microsoft.VisualStudioCode

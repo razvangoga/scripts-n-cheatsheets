@@ -30,7 +30,6 @@ choco install rdm -y
 choco install rufus -y
 choco install ServiceBusExplorer -y
 choco install slack -y
-choco install skype -y
 choco install sublimetext4 -y
 choco install sysinternals -y
 choco install terraform -y
