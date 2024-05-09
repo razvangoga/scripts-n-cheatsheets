@@ -33,3 +33,8 @@ refreshenv
 
 #boxstarter setup
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+#disable start menu bing search
+ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Search -Name "BingSearchEnabled" -Value "0"
+ #or create it
+ # New-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Search -Name "BingSearchEnabled" -Value "0" -PropertyType dword
