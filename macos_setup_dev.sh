@@ -74,5 +74,6 @@ brew install --cask dotnet-sdk6-0-400
 brew install --cask dotnet-sdk7-0-300
 brew install --cask dotnet-sdk7-0-400
 brew install --cask dotnet-sdk8-0-100
+brew install --cask dotnet-sdk8-0-200
 
 cp .zshrc ~/.zshrc && source ~/.zshrc
