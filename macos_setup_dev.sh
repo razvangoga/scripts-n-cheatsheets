@@ -48,7 +48,6 @@ brew install jq
 brew install --cask lens
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
-brew install --cask microsoft-teams-classic
 brew install minikube
 brew install node@16 && brew link --force node@16
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
