@@ -1,7 +1,8 @@
 param (
     [Parameter(Mandatory = $true)][string]$folder,
     [Parameter(Mandatory = $false)][string]$userName,
-    [Parameter(Mandatory = $false)][string]$email
+    [Parameter(Mandatory = $false)][string]$email,
+    [Parameter(Mandatory = $false)][string]$sshKey
 )
 
 if (-not (Test-Path -Path $folder)) {
@@ -18,6 +19,7 @@ $credentialsGivenAsPrms = $userName -And $email
 $credentials = [PSCustomObject]@{
     userName = ''
     email    = ''
+    sshKey   = ''
     commands = @()
 }
 
@@ -30,6 +32,7 @@ if ($credentialsConfigExist) {
 elseif ($credentialsGivenAsPrms) {
     $credentials.userName = $userName
     $credentials.email = $email
+    $credentials.sshKey = $sshKey
 }
 else {
     Write-Error "Give user credentials either via parameters or via an $profileFileName located in the target folder"
@@ -37,6 +40,18 @@ else {
 }
 
 Clear-Host
+
+$sshFolder = "$env:USERPROFILE/.ssh"
+
+if ($IsMacOS) {
+    Write-Host "Setting up ssh key access rights for macos"
+    $sshFolder = "~/.ssh"
+
+    & chmod 600 "$sshFolder/$($credentials.sshKey)"
+    & chmod 644 "$sshFolder/$($credentials.sshKey).pub"
+}
+
+
 Write-Host "Setting the userName and email for all repos to <$($credentials.userName) ($($credentials.email))>"
 Write-Host ""
 
@@ -54,7 +69,8 @@ Get-ChildItem -Directory -Path $folder | Foreach-Object {
 
         & git -C $repo config user.email $credentials.userName
         & git -C $repo config user.name $credentials.email
-
+        & git -C $repo config core.sshCommand "ssh -i $sshFolder/$($credentials.sshKey)"
+        
         Set-Location $repo
 
         foreach ($command in $credentials.commands)
