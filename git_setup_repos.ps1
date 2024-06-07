@@ -47,8 +47,8 @@ if ($IsMacOS) {
     Write-Host "Setting up ssh key access rights for macos"
     $sshFolder = "~/.ssh"
 
-    & chmod 600 "$sshFolder/$($credentials.sshKey)"
-    & chmod 644 "$sshFolder/$($credentials.sshKey).pub"
+    & chmod 600 $sshFolder/$($credentials.sshKey)
+    & chmod 644 $sshFolder/$($credentials.sshKey).pub
 }
 
 
