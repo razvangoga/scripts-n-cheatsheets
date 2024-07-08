@@ -21,25 +21,9 @@ dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
 dotnet tool install -g dotnet-outdated-tool
 dotnet tool install -g GitVersion.Tool
-
-#configure vs code
-code --install-extension bierner.markdown-mermaid
-code --install-extension DotJoshJohnson.xml
-code --install-extension eamodio.gitlens
-code --install-extension felipe-mendes.slack-theme
-code --install-extension github.github-vscode-theme
-code --install-extension heaths.vscode-guid
-code --install-extension hediet.vscode-drawio
-code --install-extension humao.rest-client
-code --install-extension jebbs.plantuml
-code --install-extension johnpapa.vscode-peacock
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-azuretools.vscode-tye
-code --install-extension ms-vscode.azurecli
-code --install-extension ms-vscode.csharp
-code --install-extension ms-vscode.powershell
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension ms-vsliveshare.vsliveshare
+dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
+dotnet tool install -g nbgv
+dotnet tool install -g tye2 --version 0.11.10
 
 #extra win features
 Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient

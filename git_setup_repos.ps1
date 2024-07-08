@@ -41,7 +41,10 @@ else {
 
 Clear-Host
 
-$sshFolder = "$env:USERPROFILE/.ssh"
+if($IsWindows) {
+    $sshFolder = "$env:USERPROFILE/.ssh";
+    $sshFolder = $sshFolder -replace '\\', '/'
+}
 
 if ($IsMacOS) {
     Write-Host "Setting up ssh key access rights for macos"
