@@ -17,7 +17,8 @@ choco install lens -y
 choco install kubernetes-helm -y
 choco install kustomize -y
 choco install minikube -y
-choco install nerdfont-hack -y
+choco install nerd-fonts-delugiacomplete -y
+choco install nerd-fonts-delugiamono-complete -y
 choco install nodejs -y
 choco install nswagstudio -y
 choco install oh-my-posh -y
