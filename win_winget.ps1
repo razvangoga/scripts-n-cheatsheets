@@ -4,7 +4,6 @@ winget install Microsoft.AzureDataStudio
 winget install Microsoft.AzureStorageExplorer
 winget install Microsoft.Bicep
 winget install Microsoft.DotNet.SDK.6
-winget install Microsoft.DotNet.SDK.7
 winget install Microsoft.Edge
 winget install LINQPad.LINQPad.8
 winget install Microsoft.NuGet
