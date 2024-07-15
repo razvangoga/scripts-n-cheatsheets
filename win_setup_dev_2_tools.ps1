@@ -9,6 +9,7 @@ choco install etcher -y
 choco install firefox -y
 choco install git -y
 choco install gitkraken -y
+choco install git-fork -y
 choco install golang -y
 choco install httpie -y
 choco install jetbrainstoolbox -y
