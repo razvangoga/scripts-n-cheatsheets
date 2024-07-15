@@ -33,6 +33,8 @@ choco upgrade all --noop && winget upgrade --include-unknown
 wsl --update
 wsl -d "{dist_name}" -u root -e apt update && wsl -d "{dist_name}" -u root -e apt upgrade -y
 
+wsl --manage "{dist_name}" --set-sparse true
+
 #reset image
 wsl --unregister "{dist_name}"; wsl --install -d "{dist_name}"; wsl -s "{dist_name}"
 
