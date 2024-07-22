@@ -1,7 +1,7 @@
 
 winget install Microsoft.AzureCLI
 winget install Microsoft.AzureDataStudio
-winget install Microsoft.AzureStorageExplorer
+winget install Microsoft.Azure.StorageExplorer
 winget install Microsoft.Bicep
 winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.Edge
