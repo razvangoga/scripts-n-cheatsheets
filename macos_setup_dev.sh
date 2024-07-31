@@ -21,7 +21,9 @@ brew tap homebrew/cask-drivers
 brew install garmin-express
 
 brew install --cask alt-tab
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install eza
+brew install --cask iterm2
 brew install --cask microsoft-edge
 brew install --cask sublime-text
 brew install --cask tg-pro
@@ -42,7 +44,6 @@ brew install --cask gitkraken
 brew install go
 brew install helm
 brew install httpie
-brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install jq
 brew install --cask lens
@@ -50,7 +51,6 @@ brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
 brew install minikube
 brew install node@16 && brew link --force node@16
-brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install oh-my-posh
 brew install openjdk
 brew install --cask postman
