@@ -21,6 +21,7 @@ brew tap homebrew/cask-drivers
 brew install garmin-express
 
 brew install --cask alt-tab
+brew install eza
 brew install --cask microsoft-edge
 brew install --cask sublime-text
 brew install --cask tg-pro
@@ -34,7 +35,6 @@ brew install --cask chromium --no-quarantine
 brew install --cask commander-one
 brew install --cask docker
 brew install --cask drawio
-brew install exa
 brew install --cask firefox
 brew install --cask fork
 brew install git
