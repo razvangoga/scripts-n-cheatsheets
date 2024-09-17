@@ -22,6 +22,26 @@ sudo rm microsoft.gpg
 
 sudo apt update && sudo apt install microsoft-edge-stable
 
+# dotnet
+wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
+sudo ./dotnet-install.sh -v 6.0.645 -i ~/.dotnet
+sudo ./dotnet-install.sh -v 8.0.303 -i ~/.dotnet
+sudo ./dotnet-install.sh -v 8.0.401 -i ~/.dotnet
+
+# dotnet configurations
+dotnet tool update -g linux-dev-certs
+dotnet linux-dev-certs install
+
+# dotnet global tools
+dotnet tool install -g dotnet-depends
+dotnet tool install -g dotnet-ef
+dotnet tool install -g dotnet-outdated-tool
+dotnet tool install -g GitVersion.Tool
+dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
+dotnet tool install -g nbgv
+dotnet tool install -g tye2 --version 0.11.10
+
+
 #jetbrains toolbox
 sudo apt install libfuse2
 curl -fsSL https://raw.githubusercontent.com/nagygergo/jetbrains-toolbox-install/master/jetbrains-toolbox.sh | bash
@@ -32,7 +52,6 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 #tools
 snap install azuredatastudio
 snap install chromium
-snap install dotnet-sdk
 snap install drawio
 snap install gitkraken --classic
 snap install powershell
@@ -46,7 +65,3 @@ onedrive --synchronize --single-directory 'Work'
 systemctl enable --user onedrive
 systemctl start --user onedrive
 systemctl status --user onedrive
-
-# configurations
-dotnet tool update -g linux-dev-certs
-dotnet linux-dev-certs install
