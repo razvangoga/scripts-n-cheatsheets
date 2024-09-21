@@ -3,6 +3,8 @@
 #omakub
 wget -qO- https://omakub.org/install | bash
 
+cd ~/Downloads
+
 #disable omakub shortcuts - they conflict with Jetbrains tools
 gsettings set org.gnome.shell.keybindings switch-to-application-1 "[]"   
 gsettings set org.gnome.shell.keybindings switch-to-application-2 "[]"   
@@ -24,9 +26,10 @@ sudo apt update && sudo apt install microsoft-edge-stable
 
 # dotnet
 wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
-sudo ./dotnet-install.sh -v 6.0.645 -i ~/.dotnet
-sudo ./dotnet-install.sh -v 8.0.303 -i ~/.dotnet
-sudo ./dotnet-install.sh -v 8.0.401 -i ~/.dotnet
+chmod +x dotnet-install.sh
+sudo ./dotnet-install.sh -v 6.0.425
+sudo ./dotnet-install.sh -v 8.0.303
+sudo ./dotnet-install.sh -v 8.0.401
 
 # dotnet configurations
 dotnet tool update -g linux-dev-certs
