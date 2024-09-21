@@ -27,9 +27,9 @@ sudo apt update && sudo apt install microsoft-edge-stable
 # dotnet
 wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
 chmod +x dotnet-install.sh
-sudo ./dotnet-install.sh -v 6.0.425
-sudo ./dotnet-install.sh -v 8.0.303
-sudo ./dotnet-install.sh -v 8.0.401
+./dotnet-install.sh -v 6.0.425
+./dotnet-install.sh -v 8.0.303
+./dotnet-install.sh -v 8.0.401
 
 # dotnet configurations
 dotnet tool update -g linux-dev-certs
