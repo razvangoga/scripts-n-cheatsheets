@@ -40,7 +40,6 @@ dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
 dotnet tool install -g dotnet-outdated-tool
 dotnet tool install -g GitVersion.Tool
-dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
 dotnet tool install -g nbgv
 dotnet tool install -g tye2 --version 0.11.10
 
@@ -53,6 +52,8 @@ curl -fsSL https://raw.githubusercontent.com/nagygergo/jetbrains-toolbox-install
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 #tools
+curl -s https://ohmyposh.dev/install.sh | bash -s
+
 snap install azuredatastudio
 snap install chromium
 snap install drawio
