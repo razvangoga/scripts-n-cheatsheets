@@ -58,7 +58,7 @@ snap install azuredatastudio
 snap install chromium
 snap install drawio
 snap install gitkraken --classic
-snap install powershell
+snap install powershell --classic
 snap install storage-explorer
 
 #onedrive sync
