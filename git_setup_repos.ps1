@@ -46,8 +46,8 @@ if($IsWindows) {
     $sshFolder = $sshFolder -replace '\\', '/'
 }
 
-if ($IsMacOS) {
-    Write-Host "Setting up ssh key access rights for macos"
+if ($IsMacOS -or $IsLinux) {
+    Write-Host "Setting up ssh key access rights for macos or linux"
     $sshFolder = "~/.ssh"
 
     & chmod 600 $sshFolder/$($credentials.sshKey)
