@@ -1,5 +1,10 @@
 #!/bin/sh
 
+#nerdfetch
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch -o /usr/bin/nerdfetch
+sudo chmod +x /usr/bin/nerdfetch
+nerdfetch
+
 #omakub
 wget -qO- https://omakub.org/install | bash
 
@@ -28,8 +33,7 @@ sudo apt update && sudo apt install microsoft-edge-stable
 wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
 chmod +x dotnet-install.sh
 ./dotnet-install.sh -v 6.0.425
-./dotnet-install.sh -v 8.0.303
-./dotnet-install.sh -v 8.0.401
+./dotnet-install.sh -v latest
 
 # dotnet configurations
 dotnet tool update -g linux-dev-certs

@@ -50,6 +50,7 @@ brew install --cask lens
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
 brew install minikube
+brew install nerdfetch
 brew install node@16 && brew link --force node@16
 brew install oh-my-posh
 brew install openjdk
