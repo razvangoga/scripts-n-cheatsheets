@@ -1,6 +1,6 @@
 Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
 Import-Module -Name Terminal-Icons
-oh-my-posh --init --shell pwsh --config E:/OneDrive/Work/scripts-n-cheatsheets/ohmyposh.json | Invoke-Expression
+oh-my-posh init pwsh --config D:/_work/me/scripts-n-cheatsheets/ohmyposh.json | Invoke-Expression
 
 Set-PSReadlineKeyHandler -Chord Tab -Function MenuComplete
 
@@ -19,8 +19,13 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
   }
 
 # aliases
-Set-Alias -Name cdm -Value codium -Force
-Set-Alias -Name dc -Value docker-compose -Force
+Set-Alias -Name cdm -Value codium
+
+function dotnet-restore-build { dotnet restore; dotnet build }
+Set-Alias -Name drdb -Value dotnet-restore-build
+
+function docker-compose-fn { docker compose $args }
+Set-Alias -Name dc -Value docker-compose-fn
 
 function git-checkout { git checkout $args }
 Set-Alias -Name gtc -Value git-checkout

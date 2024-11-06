@@ -1,29 +1,28 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "console_title_template": "{{if .Root}}(⚡Root) {{end}}{{.Folder}}",
   "blocks": [
     {
-      "type": "prompt",
       "alignment": "left",
       "segments": [
         {
-          "style": "diamond",
-          "leading_diamond": " ",
-          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "foreground": "#3A86FF",
+          "leading_diamond": " ",
+          "style": "diamond",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "type": "os"
         },
         {
+          "foreground": "#33DD2D",
           "properties": {
             "folder_separator_icon": "/",
             "style": "full"
           },
           "style": "plain",
           "template": " {{ .Path }} ",
-          "foreground": "#33DD2D",
           "type": "path"
-        },
+        },        
         {
+          "foreground": "#2bb5bf",
           "properties": {
             "fetch_stash_count": true,
             "fetch_status": true,
@@ -31,37 +30,37 @@
           },
           "style": "plain",
           "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
-          "foreground": "#2bb5bf",
           "type": "git"
         },
         {
+          "foreground": "#0184bc",
           "style": "plain",
           "template": " \ue77f {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }} ",
-          "foreground": "#0184bc",
           "type": "dotnet"
         },
         {
+          "foreground": "#6CA35E",
           "style": "plain",
           "template": " \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
-          "foreground": "#6CA35E",
           "type": "node"
         },
         {
+          "type": "python",
+          "style": "plain",
           "properties": {
             "display_mode": "files"
           },
-          "style": "plain",
-          "template": " \ue235 {{ .Full }} ",
           "foreground": "#906cff",
-          "type": "python"
-        },
+          "template": " \uE235 {{ .Full }} "
+        },    
         {
+          "type": "ruby",
           "style": "plain",
-          "template": " \ue791 {{ .Full }} ",
           "foreground": "#ec7fc0",
-          "type": "ruby"
-        },
+          "template": " \uE791 {{ .Full }} "
+        },            
         {
+          "foreground": "#9ec3f0",
           "properties": {
             "display_id": true,
             "display_name": true,
@@ -69,28 +68,29 @@
             "prefix": " \ufd03 "
           },
           "style": "powerline",
-          "foreground": "#9ec3f0",
           "type": "az"
         },
         {
+          "foreground": "#b55aee",
           "properties": {
             "style": "austin",
             "threshold": 10
           },
           "style": "plain",
           "template": "\uf250 {{ .FormattedMs }} ",
-          "foreground": "#b55aee",
           "type": "executiontime"
         },
         {
+          "foreground": "#D75F00",
           "style": "plain",
           "template": "λ ",
-          "foreground": "#D75F00",
           "type": "text"
         }
-      ]
+      ],
+      "type": "prompt"
     }
   ],
-  "version": 3,
-  "final_space": true
+  "console_title_template": "{{if .Root}}(\u26a1Root) {{end}}{{.Folder}}",
+  "final_space": true,
+  "version": 2
 }
