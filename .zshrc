@@ -1,6 +1,6 @@
 alias cdm=codium
 alias brewup='brew upgrade --greedy'
-alias dc=docker-compose
+alias dc='docker compose'
 alias drdb='dotnet restore && dotnet build'
 alias gtcb='git checkout -b'
 alias ll='eza -al'
@@ -9,7 +9,7 @@ alias md=mkdir
 alias rmd='rm -rf'
 alias tf=terraform
 
-eval "$(oh-my-posh init zsh -c ~/OneDrive/Work/scripts-n-cheatsheets/ohmyposh.json)"
+eval "$(oh-my-posh init zsh -c ~/_work/me/scripts-n-cheatsheets/ohmyposh.json)"
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
