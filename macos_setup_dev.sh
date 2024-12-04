@@ -66,12 +66,6 @@ brew install --cask vscodium
 brew install wget
 
 #dotnet
-#official / latest
-brew install --cask dotnet-sdk
-# older https://github.com/isen-ng/homebrew-dotnet-sdk-versions
-brew tap isen-ng/dotnet-sdk-versions
-brew install --cask dotnet-sdk6
-brew install --cask dotnet-sdk8-0-300
-brew install --cask dotnet-sdk8
+./macos_reinstall_old_dotnet_sdks.sh
 
 cp .zshrc ~/.zshrc && source ~/.zshrc
