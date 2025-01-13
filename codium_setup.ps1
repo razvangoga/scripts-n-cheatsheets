@@ -58,3 +58,5 @@ foreach ($extension in $extensions) {
 Get-ChildItem -Path $PSScriptRoot -Filter *.vsix | Sort-Object $._FullName | ForEach-Object {
     codium --install-extension $_.FullName --force
 }
+
+Remove-Item * -Include *.vsix -Force
