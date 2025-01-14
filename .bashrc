@@ -1,6 +1,8 @@
 alias dc='docker compose'
 alias drdb='dotnet restore && dotnet build'
 alias gtcb='git checkout -b'
+alias gtf='git fetch'
+alias gtfp='git fetch && git pull'
 alias ll='eza -al'
 alias ls='eza -a'
 alias md=mkdir

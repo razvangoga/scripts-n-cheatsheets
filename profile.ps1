@@ -30,6 +30,15 @@ Set-Alias -Name dc -Value docker-compose-fn
 function git-checkout { git checkout $args }
 Set-Alias -Name gtc -Value git-checkout
 
+function git-fetch { git fetch }
+Set-Alias -Name gtf -Value git-fetch
+
+function git-fetch-pull { git fetch; git pull }
+Set-Alias -Name gtfp -Value git-fetch-pull
+
+function git-pull { git pull }
+Set-Alias -Name gtp -Value git-pull
+
 function git-checkout-branch { git checkout -b $args }
 Set-Alias -Name gtcb -Value git-checkout-branch
 
