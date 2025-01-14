@@ -12,6 +12,7 @@ dotnet tool install -g nbgv
 dotnet tool install -g tye2 --version 0.11.10
 
 sudo dotnet workload update
+dotnet dev-certs https --trust
 dotnet --info
 
 rm dotnet-install.sh
