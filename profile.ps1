@@ -42,6 +42,9 @@ Set-Alias -Name gtp -Value git-pull
 function git-checkout-branch { git checkout -b $args }
 Set-Alias -Name gtcb -Value git-checkout-branch
 
+function git-checkout-last { git checkout - }
+Set-Alias -Name gtcl -Value git-checkout-last
+
 #https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
 function New-Tab { wt -w 0 nt -d . }
 Set-Alias -Name wtnt -Value New-Tab
