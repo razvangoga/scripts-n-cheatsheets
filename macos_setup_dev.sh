@@ -32,7 +32,6 @@ brew install --cask zoom
 
 #dev
 brew install azure-cli
-brew install --cask azure-data-studio
 brew install --cask chromium --no-quarantine
 brew install --cask commander-one
 brew install --cask docker

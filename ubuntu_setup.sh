@@ -59,7 +59,6 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 #tools
 curl -s https://ohmyposh.dev/install.sh | bash -s
 
-snap install azuredatastudio
 snap install chromium
 snap install drawio
 snap install gitkraken --classic
