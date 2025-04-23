@@ -20,6 +20,7 @@ $extensions = @(
     @{ publisher="digital-molecules"; extension="service-bus-explorer"; },
     @{ publisher="donjayamanne"; extension="kusto"; },
     @{ publisher="GitHub"; extension="copilot"; },
+    @{ publisher="GitHub"; extension="copilot-chat"; },
     @{ publisher="heaths"; extension="vscode-guid"; },
     @{ publisher="henoc"; extension="svgeditor"; },
     @{ publisher="ms-azure-devops"; extension="azure-pipelines"; },
