@@ -26,6 +26,7 @@ $extensions = @(
     @{ publisher="ms-azure-devops"; extension="azure-pipelines"; },
     @{ publisher="ms-azuretools"; extension="vscode-bicep"; },
     @{ publisher="ms-azuretools"; extension="vscode-cosmosdb"; },
+    @{ publisher="ms-kubernetes-tools"; extension="vscode-kubernetes-tools"; }
     @{ publisher="ms-mssql"; extension="mssql"; },
     @{ publisher="ms-mssql"; extension="sql-database-projects-vscode"; },
     @{ publisher="ms-vscode"; extension="PowerShell"; }
