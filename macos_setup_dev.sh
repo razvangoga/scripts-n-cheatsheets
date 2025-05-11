@@ -50,7 +50,7 @@ brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
 brew install minikube
 brew install nerdfetch
-brew install node@16 && brew link --force node@16
+brew install node
 brew install oh-my-posh
 brew install openjdk
 brew install --cask postman
@@ -59,7 +59,6 @@ brew install --cask remote-desktop-manager-free
 brew install --cask teamviewer
 brew install terraform
 brew install volta
-brew install --cask visual-studio
 brew install --cask visual-studio-code
 brew install --cask vscodium
 brew install wget
