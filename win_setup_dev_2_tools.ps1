@@ -28,6 +28,7 @@ choco install openssl -y
 choco install poshgit -y
 choco install postman -y
 choco install python3 -y
+choco install rpi-imager -y
 choco install rdm -y
 choco install rufus -y
 choco install ServiceBusExplorer -y
