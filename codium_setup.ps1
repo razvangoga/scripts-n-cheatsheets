@@ -1,6 +1,7 @@
 Clear-Host
 
 codium --install-extension bierner.markdown-mermaid --force
+codium --install-extension Catppuccin.catppuccin-vsc --force
 codium --install-extension DavidAnson.vscode-markdownlint --force
 codium --install-extension DotJoshJohnson.xml --force
 codium --install-extension eamodio.gitlens --force
