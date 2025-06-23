@@ -30,23 +30,7 @@ sudo rm microsoft.gpg
 sudo apt update && sudo apt install microsoft-edge-stable
 
 # dotnet
-wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
-chmod +x dotnet-install.sh
-./dotnet-install.sh -v 6.0.425
-./dotnet-install.sh -v 8.0.404
-./dotnet-install.sh -v latest
-
-# dotnet configurations
-dotnet tool update -g linux-dev-certs
-dotnet linux-dev-certs install
-
-# dotnet global tools
-dotnet tool install -g dotnet-depends
-dotnet tool install -g dotnet-ef
-dotnet tool install -g dotnet-outdated-tool
-dotnet tool install -g GitVersion.Tool
-dotnet tool install -g nbgv
-dotnet tool install -g tye2 --version 0.11.10
+./dotnet_install_sdks_ubuntu.sh
 
 
 #jetbrains toolbox
