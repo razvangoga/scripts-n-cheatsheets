@@ -20,7 +20,7 @@
           },
           "style": "plain",
           "template": " {{ .Path }} ",
-          "foreground": "#33DD2D",
+          "foreground": "#2ab725",
           "type": "path"
         },
         {
