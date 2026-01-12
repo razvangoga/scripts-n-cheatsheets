@@ -24,6 +24,7 @@ brew install --cask alt-tab
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 brew install eza
 brew install --cask iterm2
+brew install --cask logi-options+
 brew install --cask microsoft-edge
 brew install --cask sublime-text
 brew install --cask tg-pro
