@@ -7,6 +7,7 @@ choco install chocolateygui -y
 
 choco install 7zip -y
 choco install audioswitcher -y
+choco install ausweisapp2 -y
 choco install boxstarter -y
 choco install coretemp -y
 choco install cpu-z -y
