@@ -9,7 +9,6 @@ choco install etcher -y
 choco install firefox -y
 choco install git -y
 choco install gitkraken -y
-choco install git-fork -y
 choco install golang -y
 choco install httpie -y
 choco install jetbrainstoolbox -y
@@ -29,7 +28,6 @@ choco install poshgit -y
 choco install postman -y
 choco install python3 -y
 choco install rpi-imager -y
-choco install rdm -y
 choco install rufus -y
 choco install ServiceBusExplorer -y
 choco install slack -y
@@ -37,5 +35,4 @@ choco install sublimetext4 -y
 choco install sysinternals -y
 choco install terraform -y
 choco install totalcommander -y
-choco install vscodium -y
 choco install winmerge -y

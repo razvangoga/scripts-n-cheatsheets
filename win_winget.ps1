@@ -2,7 +2,7 @@
 winget install Microsoft.AzureCLI
 winget install Microsoft.Azure.StorageExplorer
 winget install Microsoft.Bicep
-winget install Microsoft.DotNet.SDK.8
+winget install Microsoft.DotNet.SDK.10
 winget install Microsoft.Edge
 winget install Microsoft.NuGet
 winget install Microsoft.PowerToys
@@ -10,11 +10,12 @@ winget install Microsoft.PowerShell
 winget install Microsoft.Office
 winget install Microsoft.Skype 
 winget install Microsoft.Teams
-winget install Microsoft.VisualStudio.2022.Community
+winget install Microsoft.VisualStudio.Community
 winget install Microsoft.VisualStudioCode
 winget install Microsoft.WindowsTerminal
 
-winget install LINQPad.LINQPad.8
+winget install Fork.Fork
+winget install LINQPad.LINQPad.9
 winget install Volta.Volta
 
 #nuget credential manager

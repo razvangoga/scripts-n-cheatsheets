@@ -12,6 +12,7 @@ choco install boxstarter -y
 choco install coretemp -y
 choco install cpu-z -y
 choco install crystaldiskmark -y
+choco install files -y
 choco install foxitreader -y
 choco install garmin-express -y
 choco install gpu-z -y
@@ -29,6 +30,8 @@ choco install whatsapp -y
 choco install windirstat -y
 choco install winscp -y
 choco install zoom -y
+
+winget install Voidstar.FilePilot
 
 #refresh the environment to have access to new tools
 refreshenv 
