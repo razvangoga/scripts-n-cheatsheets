@@ -35,6 +35,7 @@ brew install --cask zoom
 brew install azure-cli
 brew install --cask chromium --no-quarantine
 brew install --cask commander-one
+brew install copilot-cli
 brew install --cask docker
 brew install --cask drawio
 brew install --cask firefox
@@ -63,10 +64,9 @@ brew install --cask teamviewer
 brew install terraform
 brew install volta
 brew install --cask visual-studio-code
-brew install --cask vscodium
 brew install wget
 
 #dotnet
-./macos_reinstall_old_dotnet_sdks.sh
+./dotnet_install_sdks_macos.sh
 
 cp .zshrc ~/.zshrc && source ~/.zshrc

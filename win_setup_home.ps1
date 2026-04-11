@@ -29,6 +29,7 @@ choco install vlc -y
 choco install whatsapp -y
 choco install windirstat -y
 choco install winscp -y
+choco install wiztree -y
 choco install zoom -y
 
 winget install Voidstar.FilePilot
