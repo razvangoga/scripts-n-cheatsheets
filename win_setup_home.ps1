@@ -23,6 +23,7 @@ choco install obsidian -y
 choco install paint.net -y
 choco install passwordsafe -y
 choco install samsung-magician -y
+choco install signal -y
 choco install teamviewer -y
 choco install throttlestop -y
 choco install vlc -y

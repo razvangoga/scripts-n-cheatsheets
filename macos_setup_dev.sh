@@ -60,6 +60,7 @@ brew install --cask postman
 brew install --cask powershell
 brew install --cask raspberry-pi-imager
 brew install --cask remote-desktop-manager-free
+brew install --cask signal
 brew install --cask teamviewer
 brew install terraform
 brew install volta
