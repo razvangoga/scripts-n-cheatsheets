@@ -25,7 +25,17 @@ choco pin remove --name git
 winget list --source winget
 winget upgrade --include-unknown
 
-choco upgrade all --noop && winget upgrade --include-unknown
+###########
+# win store
+###########
+
+store updates --apply
+
+#####
+# all
+#####
+
+choco upgrade all --noop && winget upgrade --include-unknown && store updates --apply
 
 #####
 # wsl
