@@ -57,7 +57,7 @@ brew install --cask obsidian
 brew install oh-my-posh
 brew install openjdk
 brew install --cask postman
-brew install powershell
+brew install powershell --ignore-dependencies
 brew install --cask raspberry-pi-imager
 brew install --cask remote-desktop-manager-free
 brew install --cask signal
