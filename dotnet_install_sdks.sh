@@ -6,9 +6,9 @@ gpg --verify dotnet-install.sig dotnet-install.sh
 
 chmod +x dotnet-install.sh
 
-./dotnet-install.sh -v 8.0.416 --architecture arm64 --os macos
-./dotnet-install.sh -v 9.0.307 --architecture arm64 --os macos
-./dotnet-install.sh -v 10.0.100 --architecture arm64 --os macos
+./dotnet-install.sh -v 8.0.420 --architecture arm64 --os macos
+./dotnet-install.sh -v 9.0.313 --architecture arm64 --os macos
+./dotnet-install.sh -v 10.0.203 --architecture arm64 --os macos
 
 dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
