@@ -1,4 +1,4 @@
-alias cdm=codium
+alias cde=''
 alias brewup='brew upgrade --greedy'
 alias dc='docker compose'
 alias drdb='dotnet restore && dotnet build'
@@ -8,9 +8,11 @@ alias gtf='git fetch'
 alias gtfp='git fetch && git pull'
 alias gtp='git pull'
 alias ll='eza -al'
+alias lqp="'/Applications/LINQPad 9.app/Contents/MacOS/LINQPad9' &"
 alias ls='eza -a'
 alias md=mkdir
 alias rmd='rm -rf'
+alias sbt=service-bus-tui
 alias tf=terraform
 
 eval "$(oh-my-posh init zsh -c ~/_work/me/scripts-n-cheatsheets/ohmyposh.json)"
