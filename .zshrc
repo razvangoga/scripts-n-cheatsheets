@@ -1,5 +1,6 @@
-alias cde=''
 alias brewup='brew upgrade --greedy'
+alias cde=''
+alias cdm=''
 alias dc='docker compose'
 alias drdb='dotnet restore && dotnet build'
 alias gtcb='git checkout -b'
