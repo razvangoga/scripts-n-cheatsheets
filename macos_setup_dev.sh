@@ -35,12 +35,13 @@ brew install --cask zoom
 brew install azure-cli
 brew install --cask chromium --no-quarantine
 brew install --cask commander-one
-brew install copilot-cli
+brew install copilot-cli #github copilot cli
 brew install --cask docker
 brew install --cask drawio
 brew install --cask firefox
 brew install --cask fork
 brew install git
+brew install --cask github-copilot-app
 brew install --cask gitkraken
 brew install go
 brew install helm
