@@ -25,7 +25,6 @@ choco install oh-my-posh -y
 choco install openjdk -y
 choco install openssl -y
 choco install poshgit -y
-choco install postman -y
 choco install python3 -y
 choco install rpi-imager -y
 choco install rufus -y
