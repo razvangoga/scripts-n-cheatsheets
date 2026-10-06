@@ -49,6 +49,7 @@ brew install httpie
 brew install --cask jetbrains-toolbox
 brew install jq
 brew install --cask lens
+brew install --cask microsoft/aspire/aspire
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-teams
 brew install minikube

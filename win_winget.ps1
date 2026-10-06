@@ -1,4 +1,5 @@
 
+winget install Microsoft.Aspire
 winget install Microsoft.AzureCLI
 winget install Microsoft.Azure.StorageExplorer
 winget install Microsoft.Bicep
