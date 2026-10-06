@@ -21,6 +21,8 @@ winget install Fork.Fork
 winget install GitHub.Copilot
 winget install -e --id GitHub.CopilotApp
 winget install LINQPad.LINQPad.9
+winget install MonsieurTib.service-bus-tui
+winget install Voidstar.FilePilot
 winget install Volta.Volta
 
 #nuget credential manager
