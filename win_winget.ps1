@@ -1,4 +1,5 @@
 
+winget install Microsoft.Aspire
 winget install Microsoft.AzureCLI
 winget install Microsoft.Azure.StorageExplorer
 winget install Microsoft.Bicep
@@ -20,6 +21,8 @@ winget install Fork.Fork
 winget install GitHub.Copilot
 winget install -e --id GitHub.CopilotApp
 winget install LINQPad.LINQPad.9
+winget install MonsieurTib.service-bus-tui
+winget install Voidstar.FilePilot
 winget install Volta.Volta
 
 #nuget credential manager

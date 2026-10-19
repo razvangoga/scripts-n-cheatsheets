@@ -27,7 +27,6 @@ choco install signal -y
 choco install teamviewer -y
 choco install throttlestop -y
 choco install vlc -y
-choco install whatsapp -y
 choco install windirstat -y
 choco install winscp -y
 choco install wiztree -y
