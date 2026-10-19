@@ -17,6 +17,7 @@ winget install Microsoft.VisualStudio.Community
 winget install Microsoft.VisualStudioCode
 winget install Microsoft.WindowsTerminal
 
+winget install Anthropic.ClaudeCode
 winget install Fork.Fork
 winget install GitHub.Copilot
 winget install -e --id GitHub.CopilotApp

@@ -34,6 +34,7 @@ brew install --cask zoom
 #dev
 brew install azure-cli
 brew install --cask chromium --no-quarantine
+brew install --cask claude-code
 brew install --cask commander-one
 brew install copilot-cli #github copilot cli
 brew install --cask docker
