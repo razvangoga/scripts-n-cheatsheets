@@ -7,6 +7,7 @@ winget install Microsoft.DotNet.SDK.8
 winget install Microsoft.DotNet.SDK.9
 winget install Microsoft.DotNet.SDK.10
 winget install Microsoft.Edge
+winget install --id Microsoft.IntelligentTerminal -e
 winget install Microsoft.NuGet
 winget install Microsoft.PowerToys
 winget install Microsoft.PowerShell
