@@ -8,9 +8,10 @@ gpg --verify dotnet-install.sig dotnet-install.sh
 
 chmod +x dotnet-install.sh
 
-./dotnet-install.sh -v 8.0.425 "${INSTALL_ARGS[@]}"
-./dotnet-install.sh -v 9.0.318 "${INSTALL_ARGS[@]}"
-./dotnet-install.sh -v 10.0.401 "${INSTALL_ARGS[@]}"
+./dotnet-install.sh -v 8.0.428 "${INSTALL_ARGS[@]}"
+./dotnet-install.sh -v 9.0.321 "${INSTALL_ARGS[@]}"
+./dotnet-install.sh -v 10.0.404 "${INSTALL_ARGS[@]}"
+./dotnet-install.sh -v 11.0.100 "${INSTALL_ARGS[@]}"
 
 dotnet tool install -g dotnet-depends
 dotnet tool install -g dotnet-ef
