@@ -1,4 +1,3 @@
-
 winget install Microsoft.Aspire
 winget install Microsoft.AzureCLI
 winget install Microsoft.Azure.StorageExplorer
@@ -6,6 +5,7 @@ winget install Microsoft.Bicep
 winget install Microsoft.DotNet.SDK.8
 winget install Microsoft.DotNet.SDK.9
 winget install Microsoft.DotNet.SDK.10
+winget install Microsoft.DotNet.SDK.11
 winget install Microsoft.Edge
 winget install --id Microsoft.IntelligentTerminal -e
 winget install Microsoft.NuGet
